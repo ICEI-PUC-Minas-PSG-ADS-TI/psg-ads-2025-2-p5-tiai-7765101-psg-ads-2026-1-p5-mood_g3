@@ -85,7 +85,7 @@ Os papéis abaixo são apenas para organização do time.
 - 👨‍💻 Tech Lead:
 - 🗄️ Arquiteto de Dados:
 - 🧪 Gerente de Qualidade:
-- 📋 Facilitador Ágil:
+- 📋 Facilitador Ágil: Camila Machado Pires Maia
 
 > Caso os papéis mudem nas próximas Sprints, atualizar neste documento.
 
