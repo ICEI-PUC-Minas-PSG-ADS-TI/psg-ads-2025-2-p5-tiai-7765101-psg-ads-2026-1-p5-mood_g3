@@ -2,13 +2,14 @@
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`T.I - APLICAÇÕES INOVADORAS`
+`TRABALHO INTERDISCIPLINAR: APLICAÇÕES INOVADORAS`
 
-`5° PERIODO`
+`5° PERÍODO`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ODS Alinhados:
+* ODS 3 - Saúde e Bem-Estar
 
 ## Integrantes
 
