@@ -2,9 +2,9 @@
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`T.I - APLICAÇÕES INOVADORAS`
 
-`SEMESTRE`
+`5° PERIODO`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
@@ -12,14 +12,14 @@ ODS Alinhados:
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Camila Machado Pires Maia
+* Diego Rodrigues da Cruz
+* Francisco Henrique de Moura
+* Fredson Marinho Almeida Borges Filho
 
 ## Orientador
 
-* Nome completo do professor 1
+* Juliana Padilha
 
 ## Instruções de utilização
 
