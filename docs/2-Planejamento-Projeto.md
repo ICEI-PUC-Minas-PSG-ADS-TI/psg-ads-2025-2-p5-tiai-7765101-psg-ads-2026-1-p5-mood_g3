@@ -83,7 +83,7 @@ Os papéis abaixo são apenas para organização do time.
 ##  Definição dos Papéis – Sprint 1
 
 - 👨‍💻 Tech Lead: Fredson Marinho Almeida Borges
-- 🗄️ Arquiteto de Dados:
+- 🗄️ Arquiteto de Dados: Fancisco Henrique de Moura
 - 🧪 Gerente de Qualidade: Diego Rodrigues da Cruz
 - 📋 Facilitador Ágil: Camila Machado Pires Maia
 
@@ -135,10 +135,10 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 
 | Responsável | Papel | Tarefa | Início | Prazo | Status |
 |-------------|--------|--------|--------|--------|--------|
-| Diego Rodrigues da Cruz        |        | Preencher Visão do Produto, ODS e Backlog no README | 12/03 | 15/03 | ❌ |
-| Fredson Marinho Almeida Borges           |        | Criar instância do Banco de Dados | 12/03 | 16/03 | ❌ |
-| Fancisco Henrique de Moura            |        | Criar repositório e estruturar pastas | 12/03 | 18/03 | ❌ |
-| Camila Machado Pires Maia          |        | Criar tela Hello World conectada à API | 15/03 | 20/03 | ❌ |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade       | Preencher o README.md e Planejamento-Projeto.md | 26/02 | 12/03 | 📝 |
+| Fredson Marinho Almeida Borges           | Tech Lead        | Criar instância do Banco de Dados | 26/02 | 12/03 | 📝 |
+| Fancisco Henrique de Moura            | Arquiteto de Dados       | Elaborar o Contexto.md e organizar a estrutura de páginas | 26/02 | 12/03 | 📝 |
+| Camila Machado Pires Maia          | Facilitador Ágil       | Criar repositório e desenvolver as telas de Login e Cadastro | 26/02 | 12/03 | 📝 |
 
 ---
 
