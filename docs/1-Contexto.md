@@ -1,45 +1,58 @@
 # 1. Introdução
 
-Nesta seção, você vai apresentar **o contexto e a motivação do seu projeto**, explicando o problema que ele resolve, o que pretende alcançar e para quem ele é útil.
+Nos últimos anos, a preocupação com a saúde mental tem ganhado cada vez mais destaque, especialmente entre estudantes e jovens adultos que enfrentam rotinas intensas, pressão acadêmica e desafios emocionais no dia a dia. Muitas vezes, essas pessoas têm dificuldade em reconhecer, registrar e compreender suas próprias emoções, o que pode dificultar a identificação de padrões de estresse, ansiedade ou sobrecarga emocional.
+
+Nesse contexto, surge a necessidade de ferramentas simples e acessíveis que auxiliem no acompanhamento do estado emocional e incentivem a reflexão sobre o bem-estar mental. O registro frequente do humor pode ajudar os indivíduos a desenvolver maior consciência emocional, permitindo identificar fatores que influenciam seu estado psicológico ao longo do tempo.
+
+Diante dessa necessidade, o presente projeto propõe o desenvolvimento de um sistema web de registro e análise de humor, que permitirá aos usuários registrar seu estado emocional diariamente, acompanhar o histórico de seus registros e visualizar análises que auxiliem na identificação de padrões emocionais.
+
+O sistema será direcionado principalmente a estudantes e jovens adultos que desejam acompanhar seu bem-estar emocional de forma prática e organizada. Além disso, a solução contribui para a promoção da saúde mental e está alinhada ao Objetivo de Desenvolvimento Sustentável (ODS) 3 — Saúde e Bem-Estar, que busca garantir uma vida saudável e promover o bem-estar para todas as pessoas.
 
 ---
 
 ## 1.1 Problema  
-Descreva **claramente** o problema que o sistema vai resolver.  
-- Qual situação precisa ser melhorada?  
-- Onde e por quem essa solução será usada?  
+Atualmente, muitas pessoas — especialmente estudantes e jovens adultos — enfrentam dificuldades para compreender e acompanhar seu próprio estado emocional ao longo do tempo. A rotina intensa de estudos, trabalho e responsabilidades pode gerar situações de estresse, ansiedade e sobrecarga emocional, porém nem sempre os indivíduos conseguem identificar claramente esses sentimentos ou perceber padrões relacionados ao seu bem-estar.
 
-> 💡 *Exemplo:*  
-> "Pequenos hortifrutis enfrentam dificuldades para controlar estoques e evitar desperdícios, pois usam planilhas manuais que geram erros e    retrabalho."
+Uma das principais dificuldades está na falta de ferramentas simples e acessíveis que permitam registrar emoções de forma organizada e acompanhar essas informações posteriormente. Muitas pessoas até tentam anotar sentimentos em cadernos ou aplicativos genéricos de notas, mas esses métodos não oferecem análise de padrões, histórico estruturado ou visualizações que facilitem a compreensão do estado emocional ao longo do tempo.
 
+Nesse contexto, torna-se necessário um sistema que permita registrar o humor diariamente, armazenar esses registros e gerar análises que ajudem o usuário a compreender melhor suas emoções.
+
+A solução proposta será utilizada principalmente por estudantes e jovens adultos, por meio de um sistema web, permitindo que eles registrem seu humor, acompanhem seu histórico emocional e visualizem padrões que possam contribuir para uma maior consciência sobre seu bem-estar mental.
 ---
 
 ## 1.2 Objetivos  
-Defina o **objetivo geral** (o que o projeto como um todo pretende) e pelo menos **2 objetivos específicos** (detalhes ou etapas importantes).
+Desenvolver um sistema web de registro e análise de humor que permita aos usuários acompanhar seu estado emocional ao longo do tempo, promovendo maior consciência sobre seu bem-estar mental.
 
->💡 *Exemplo:*  
-- **Geral:** Criar um sistema web para controle de estoque de hortifruti.  
-- **Específicos:**  
-  - Implementar controle de validade com alertas automáticos.  
-  - Gerar relatórios mensais de perdas e vendas.
-
----
+Objetivos Específicos
+Implementar o registro diário de humor, permitindo que os usuários informem suas emoções e adicionem observações sobre seu dia.
+Disponibilizar um histórico de registros emocionais, permitindo que o usuário visualize seus registros anteriores organizados por data.
+Criar um dashboard com gráficos e indicadores, facilitando a visualização de padrões e tendências emocionais ao longo do tempo.
+Permitir a análise de padrões de humor, ajudando o usuário a identificar possíveis relações entre emoções, rotina e bem-estar.
 
 ## 1.3 Justificativa  
-Explique **por que** vale a pena desenvolver este projeto.  
-- Quais benefícios trará?  
-- Quais dados ou fatos comprovam que o problema existe?  
-
+O desenvolvimento deste projeto se justifica pela crescente preocupação com a saúde mental, especialmente entre estudantes e jovens adultos que enfrentam rotinas intensas de estudo, trabalho e responsabilidades diárias. Esse contexto pode gerar níveis elevados de estresse, ansiedade e sobrecarga emocional, tornando importante a adoção de ferramentas que auxiliem no acompanhamento do bem-estar emocional.
+Muitas pessoas não possuem o hábito de registrar ou refletir sobre suas emoções, o que dificulta a identificação de padrões relacionados ao seu estado psicológico. Além disso, os métodos mais comuns, como anotações em cadernos ou aplicativos genéricos de notas, não oferecem recursos estruturados para organizar, analisar e visualizar informações emocionais ao longo do tempo.
+Segundo estudos e pesquisas na área de saúde, práticas de autoobservação e registro emocional podem contribuir para o desenvolvimento de maior consciência emocional, ajudando as pessoas a identificar fatores que influenciam seu humor e comportamento no cotidiano.
+Diante desse cenário, o desenvolvimento de um sistema web de registro e análise de humor pode trazer benefícios importantes, como:
+Incentivar o autoconhecimento emocional dos usuários.
+Facilitar o acompanhamento do estado de humor ao longo do tempo.
+Ajudar na identificação de padrões de estresse ou bem-estar.
+Promover práticas de cuidado com a saúde mental.
+Além disso, o projeto está alinhado ao Objetivo de Desenvolvimento Sustentável (ODS) 3 – Saúde e Bem-Estar, que busca promover qualidade de vida e bem-estar para a população. Dessa forma, a solução proposta contribui para incentivar hábitos saudáveis relacionados à saúde emocional e ao autocuidado.
 >💡 *Exemplo:*  
 "Segundo dados da FAO, 30% dos alimentos se perdem no transporte e armazenamento. Nosso sistema ajudará a reduzir perdas e desperdícios."
 
 ---
 
 ## 1.4 Público-Alvo  
-Descreva quem vai usar a solução.  
-- Perfil: idade, profissão, familiaridade com tecnologia.  
-- Contexto: onde e como vai usar.
-
+público-alvo do sistema é composto principalmente por estudantes e jovens adultos que desejam acompanhar e compreender melhor seu estado emocional no dia a dia.
+Perfil dos Usuários
+Idade: aproximadamente entre 16 e 35 anos.
+Profissão ou ocupação: estudantes do ensino médio, universitários, estagiários e jovens profissionais.
+Familiaridade com tecnologia: usuários com conhecimento básico ou intermediário em tecnologia, habituados ao uso de computadores, smartphones e aplicações web.
+Contexto de Uso
+O sistema será utilizado em ambientes cotidianos como casa, universidade ou trabalho, por meio de um navegador web em computadores, tablets ou smartphones.
+Os usuários poderão acessar a plataforma diariamente para registrar seu humor, escrever observações sobre o dia e acompanhar seu histórico emocional. Além disso, poderão utilizar os recursos de análise e dashboard para visualizar padrões e refletir sobre seu bem-estar emocional ao longo do tempo.
 >💡 *Exemplo:*  
 "Pequenos comerciantes de hortifrutis, com conhecimentos básicos de informática, que precisam de uma ferramenta simples e rápida para controle de estoque."
 
