@@ -82,7 +82,7 @@ Os papéis abaixo são apenas para organização do time.
 
 ##  Definição dos Papéis – Sprint 1
 
-- 👨‍💻 Tech Lead:
+- 👨‍💻 Tech Lead: Fredson Marinho Almeida Borges
 - 🗄️ Arquiteto de Dados:
 - 🧪 Gerente de Qualidade:
 - 📋 Facilitador Ágil: Camila Machado Pires Maia
