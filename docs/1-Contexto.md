@@ -39,8 +39,6 @@ Facilitar o acompanhamento do estado de humor ao longo do tempo.
 Ajudar na identificação de padrões de estresse ou bem-estar.
 Promover práticas de cuidado com a saúde mental.
 Além disso, o projeto está alinhado ao Objetivo de Desenvolvimento Sustentável (ODS) 3 – Saúde e Bem-Estar, que busca promover qualidade de vida e bem-estar para a população. Dessa forma, a solução proposta contribui para incentivar hábitos saudáveis relacionados à saúde emocional e ao autocuidado.
->💡 *Exemplo:*  
-"Segundo dados da FAO, 30% dos alimentos se perdem no transporte e armazenamento. Nosso sistema ajudará a reduzir perdas e desperdícios."
 
 ---
 
@@ -53,7 +51,38 @@ Familiaridade com tecnologia: usuários com conhecimento básico ou intermediár
 Contexto de Uso
 O sistema será utilizado em ambientes cotidianos como casa, universidade ou trabalho, por meio de um navegador web em computadores, tablets ou smartphones.
 Os usuários poderão acessar a plataforma diariamente para registrar seu humor, escrever observações sobre o dia e acompanhar seu histórico emocional. Além disso, poderão utilizar os recursos de análise e dashboard para visualizar padrões e refletir sobre seu bem-estar emocional ao longo do tempo.
->💡 *Exemplo:*  
-"Pequenos comerciantes de hortifrutis, com conhecimentos básicos de informática, que precisam de uma ferramenta simples e rápida para controle de estoque."
+
+
+---
+
+# Contexto do Sistema
+
+## Lista Macro de Funcionalidades
+
+O sistema de registro e análise de humor contará com as seguintes funcionalidades principais:
+
+### 1. Cadastro e Autenticação de Usuários
+Permitir que os usuários criem uma conta no sistema, realizem login e tenham acesso seguro às suas informações pessoais e registros emocionais.
+
+### 2. Registro de Humor Diário
+Possibilitar que o usuário registre diariamente seu estado emocional, selecionando o humor do dia e podendo adicionar observações ou comentários.
+
+### 3. Diário Emocional
+Permitir que o usuário escreva reflexões ou acontecimentos importantes relacionados ao seu estado emocional.
+
+### 4. Histórico de Registros
+Disponibilizar uma visualização organizada dos registros anteriores, permitindo que o usuário acompanhe suas emoções ao longo do tempo.
+
+### 5. Dashboard de Análise
+Apresentar gráficos e indicadores que mostrem padrões de humor, frequência de emoções e variações ao longo do tempo.
+
+### 6. Filtros e Busca de Registros
+Permitir que o usuário filtre registros por data ou período específico para facilitar a análise de informações.
+
+### 7. Perfil do Usuário
+Possibilitar que o usuário visualize e edite suas informações pessoais.
+
+### 8. Segurança e Privacidade dos Dados
+Garantir que os dados emocionais registrados sejam armazenados com segurança e acessados apenas pelo próprio usuário.
 
 ---
