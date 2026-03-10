@@ -37,10 +37,10 @@ Desenvolver um sistema web de registro e análise de humor que permita aos usuá
 
 Diante desse cenário, o desenvolvimento de um sistema web de registro e análise de humor pode trazer benefícios importantes, como:
 
-* Incentivar o autoconhecimento emocional dos usuários.
-* Facilitar o acompanhamento do estado de humor ao longo do tempo.
-* Ajudar na identificação de padrões de estresse ou bem-estar.
-* Promover práticas de cuidado com a saúde mental.
+> - Incentivar o autoconhecimento emocional dos usuários.
+> - Facilitar o acompanhamento do estado de humor ao longo do tempo.
+> - Ajudar na identificação de padrões de estresse ou bem-estar.
+> - Promover práticas de cuidado com a saúde mental.
   
 <p align = "justify"> Além disso, o projeto está alinhado ao Objetivo de Desenvolvimento Sustentável (ODS) 3 – Saúde e Bem-Estar, que busca promover qualidade de vida e bem-estar para a população. Dessa forma, a solução proposta contribui para incentivar hábitos saudáveis relacionados à saúde emocional e ao autocuidado.</p>
 
