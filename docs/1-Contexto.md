@@ -23,10 +23,10 @@
 ## 1.2 Objetivos  
 Desenvolver um sistema web de registro e análise de humor que permita aos usuários acompanhar seu estado emocional ao longo do tempo, promovendo maior consciência sobre seu bem-estar mental.
 
-Objetivos Específicos
+**Objetivos Específicos**
 * Implementar o registro diário de humor, permitindo que os usuários informem suas emoções e adicionem observações sobre seu dia.
 * Disponibilizar um histórico de registros emocionais, permitindo que o usuário visualize seus registros anteriores organizados por data.
-Criar um dashboard com gráficos e indicadores, facilitando a visualização de padrões e tendências emocionais ao longo do tempo.
+* Criar um dashboard com gráficos e indicadores, facilitando a visualização de padrões e tendências emocionais ao longo do tempo.
 Permitir a análise de padrões de humor, ajudando o usuário a identificar possíveis relações entre emoções, rotina e bem-estar.
 
 ## 1.3 Justificativa  
