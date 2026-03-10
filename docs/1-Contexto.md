@@ -25,10 +25,10 @@
 Desenvolver um sistema web de registro e análise de humor que permita aos usuários acompanhar seu estado emocional ao longo do tempo, promovendo maior consciência sobre seu bem-estar mental.
 
 **Objetivos Específicos**
-* Implementar o registro diário de humor, permitindo que os usuários informem suas emoções e adicionem observações sobre seu dia.
-* Disponibilizar um histórico de registros emocionais, permitindo que o usuário visualize seus registros anteriores organizados por data.
-* Criar um dashboard com gráficos e indicadores, facilitando a visualização de padrões e tendências emocionais ao longo do tempo.
-Permitir a análise de padrões de humor, ajudando o usuário a identificar possíveis relações entre emoções, rotina e bem-estar.
+> - Implementar o registro diário de humor, permitindo que os usuários informem suas emoções e adicionem observações sobre seu dia.
+> - Disponibilizar um histórico de registros emocionais, permitindo que o usuário visualize seus registros anteriores organizados por data.
+> - Criar um dashboard com gráficos e indicadores, facilitando a visualização de padrões e tendências emocionais ao longo do tempo.
+> - Permitir a análise de padrões de humor, ajudando o usuário a identificar possíveis relações entre emoções, rotina e bem-estar.
 
 ## 1.3 Justificativa  
 <p align = "justify">O desenvolvimento deste projeto se justifica pela crescente preocupação com a saúde mental, especialmente entre estudantes e jovens adultos que enfrentam rotinas intensas de estudo, trabalho e responsabilidades diárias. Esse contexto pode gerar níveis elevados de estresse, ansiedade e sobrecarga emocional, tornando importante a adoção de ferramentas que auxiliem no acompanhamento do bem-estar emocional.</p>
