@@ -43,12 +43,14 @@ Além disso, o projeto está alinhado ao Objetivo de Desenvolvimento Sustentáve
 ---
 
 ## 1.4 Público-Alvo  
-público-alvo do sistema é composto principalmente por estudantes e jovens adultos que desejam acompanhar e compreender melhor seu estado emocional no dia a dia.
-Perfil dos Usuários
-Idade: aproximadamente entre 16 e 35 anos.
-Profissão ou ocupação: estudantes do ensino médio, universitários, estagiários e jovens profissionais.
+O público-alvo do sistema é composto principalmente por estudantes e jovens adultos que desejam acompanhar e compreender melhor seu estado emocional no dia a dia.
+
+**Perfil dos Usuários**
+**Idade:** aproximadamente entre 16 e 35 anos.
+**Profissão ou ocupação:** estudantes do ensino médio, universitários, estagiários e jovens profissionais.
 Familiaridade com tecnologia: usuários com conhecimento básico ou intermediário em tecnologia, habituados ao uso de computadores, smartphones e aplicações web.
-Contexto de Uso
+
+**Contexto de Uso**
 O sistema será utilizado em ambientes cotidianos como casa, universidade ou trabalho, por meio de um navegador web em computadores, tablets ou smartphones.
 Os usuários poderão acessar a plataforma diariamente para registrar seu humor, escrever observações sobre o dia e acompanhar seu histórico emocional. Além disso, poderão utilizar os recursos de análise e dashboard para visualizar padrões e refletir sobre seu bem-estar emocional ao longo do tempo.
 
