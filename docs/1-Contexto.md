@@ -18,6 +18,7 @@
 <p align = "justify">Nesse contexto, torna-se necessário um sistema que permita registrar o humor diariamente, armazenar esses registros e gerar análises que ajudem o usuário a compreender melhor suas emoções.</p>
 
 <p align = "justify">A solução proposta será utilizada principalmente por estudantes e jovens adultos, por meio de um sistema web, permitindo que eles registrem seu humor, acompanhem seu histórico emocional e visualizem padrões que possam contribuir para uma maior consciência sobre seu bem-estar mental.</p>
+
 ---
 
 ## 1.2 Objetivos  
