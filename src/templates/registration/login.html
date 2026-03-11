@@ -1,53 +1,62 @@
 {% extends "base.html" %}
+{% load static %}
 
-{% block title %}Login – Mood Tracker{% endblock %}
+{% block title %}Login – Moodly{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock %}
 
 {% block content %}
-<div class="row justify-content-center mt-5">
-  <div class="col-md-6 col-lg-4">
-    <div class="card shadow-sm">
-      <div class="card-header bg-primary text-white text-center">
-        <h4 class="mb-0">Entrar</h4>
-      </div>
-      <div class="card-body">
-        <form method="post" novalidate>
-          {% csrf_token %}
 
-          {% if form.errors %}
-            <div class="alert alert-danger">
-              Usuário ou senha inválidos. Tente novamente.
-            </div>
-          {% endif %}
+<div class="login-container">
 
-          <div class="mb-3">
-            <label for="id_username" class="form-label">Usuário</label>
-            <input
-              type="text"
-              name="username"
-              id="id_username"
-              class="form-control"
-              autofocus
-              required
-            />
-          </div>
-
-          <div class="mb-3">
-            <label for="id_password" class="form-label">Senha</label>
-            <input
-              type="password"
-              name="password"
-              id="id_password"
-              class="form-control"
-              required
-            />
-          </div>
-
-          <div class="d-grid">
-            <button type="submit" class="btn btn-primary">Entrar</button>
-          </div>
-        </form>
-      </div>
-    </div>
+  <div class="login-left">
+    <img src="{% static 'img/logo.png' %}" alt="Moodly" class="login-logo">
   </div>
+
+  <div class="login-right">
+
+    <div class="login-card">
+
+      <div class="login-title">Moodly</div>
+
+      <div class="login-subtitle">
+        Cuidar da mente também é cuidar da saúde
+      </div>
+
+      <form method="post" action="{% url 'login' %}">
+        {% csrf_token %}
+
+        {% if form.errors %}
+        <div class="alert alert-danger">
+          Usuário ou senha inválidos. Tente novamente.
+        </div>
+        {% endif %}
+
+        <div class="mb-3">
+          <input type="text" name="username" class="form-control" placeholder="E-mail" required>
+        </div>
+
+        <div class="mb-3">
+          <input type="password" name="password" class="form-control" placeholder="Senha" required>
+        </div>
+
+        <button type="submit" class="login-btn">
+          Entrar
+        </button>
+
+      </form>
+
+      <div class="text-center mt-3">
+        Não tem conta?
+        <a href="#">Criar Conta</a> <!-- Wip -->
+      </div>
+
+    </div>
+
+  </div>
+
 </div>
+
 {% endblock %}
