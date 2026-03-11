@@ -138,7 +138,7 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 | Diego Rodrigues da Cruz        | Gerente de Qualidade       | Preencher o README.md e Planejamento-Projeto.md | 26/02 | 12/03 | 📝 |
 | Fredson Marinho Almeida Borges           | Tech Lead        | Criar instância do Banco de Dados | 26/02 | 12/03 | 📝 |
 | Fancisco Henrique de Moura            | Arquiteto de Dados       | Elaborar o Contexto.md e organizar a estrutura de páginas | 26/02 | 12/03 | 📝 |
-| Camila Machado Pires Maia          | Facilitador Ágil       | Criar repositório e desenvolver as telas de Login e Cadastro | 26/02 | 12/03 | 📝 |
+| Camila Machado Pires Maia          | Facilitador Ágil       | Criar repositório e desenvolver tela de "Login" | 26/02 | 12/03 | ✔️ |
 
 ---
 
