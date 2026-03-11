@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6fb;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-custom {
+    background: linear-gradient(135deg, #4f46e5, #6366f1, #7c3aed);
+    padding: 14px 0;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+
+}
+
+.logo-icon {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-left: 22px;
+    position: relative;
+}
+
+.nav-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+
+}
+
+.nav-hover:hover::after {
+    width: 100%;
+}
+
+.user-box {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.user-name {
+    color: white;
+    font-weight: 500;
+}
+
+.btn-login,
+.btn-logout {
+    background: white;
+    color: #4f46e5;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 6px 16px;
+    margin-left: 20px;
+    transition: 0.3s;
+
+}
+
+.btn-login:hover,
+.btn-logout:hover {
+    background: #f3f4ff;
+    transform: translateY(-1px);
+
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px 20px;
+
+}
+
+.footer-custom {
+    background: linear-gradient(135deg, #4f46e5, #6366f1, #7c3aed);
+    color: white;
+    padding: 40px 0;
+    margin-top: auto;
+
+}
+
+.footer-content {
+    text-align: center;
+
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.footer-links {
+    margin-bottom: 20px;
+
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: 0.9;
+    transition: 0.3s;
+
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+
+}
+
+.footer-copy {
+    font-size: 13px;
+    opacity: 0.8;
+
+}
+
+@media (max-width:992px) {
+
+    .nav-link {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .user-box {
+        margin-top: 10px;
+    }
+
+    .btn-login,
+    .btn-logout {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .logo-text {
+        font-size: 20px;
+    }
+
+    .user-name {
+        display: none;
+    }
+
+    .footer-links a {
+        display: block;
+        margin: 6px 0;
+    }
+
+}
