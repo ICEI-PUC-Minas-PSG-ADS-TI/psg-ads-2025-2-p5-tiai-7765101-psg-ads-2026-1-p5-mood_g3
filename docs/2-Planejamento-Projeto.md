@@ -135,10 +135,10 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 
 | Responsável | Papel | Tarefa | Início | Prazo | Status |
 |-------------|--------|--------|--------|--------|--------|
-| Diego Rodrigues da Cruz        | Gerente de Qualidade       | Preencher o README.md e Planejamento-Projeto.md | 26/02 | 12/03 | 📝 |
-| Fredson Marinho Almeida Borges           | Tech Lead        | Criar instância do Banco de Dados | 26/02 | 12/03 | 📝 |
-| Fancisco Henrique de Moura            | Arquiteto de Dados       | Elaborar o Contexto.md e organizar a estrutura de páginas | 26/02 | 12/03 | 📝 |
 | Camila Machado Pires Maia          | Facilitador Ágil       | Criar repositório, desenvolver tela de "Login" e formatação | 26/02 | 12/03 | ✔️ |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade       | Preencher o README.md e Planejamento-Projeto.md | 26/02 | 12/03 | ✔️ |
+| Francisco Henrique de Moura            | Arquiteto de Dados       | Elaborar o Contexto.md e organizar a estrutura de páginas | 26/02 | 12/03 | 📝 |
+| Fredson Marinho Almeida Borges           | Tech Lead        | Criar instância do Banco de Dados | 26/02 | 12/03 | 📝 |
 
 ---
 
