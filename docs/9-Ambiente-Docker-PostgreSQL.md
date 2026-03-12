@@ -26,7 +26,7 @@ Sistema_Humor_PUC/
         └── settings.py  ← Django lê o .env via python-dotenv
 ```
 
-> ⚠️ O arquivo `.env` nunca deve ser commitado. Apenas o `.env.example` vai ao repositório.
+O arquivo `.env` nunca deve ser commitado. Apenas o `.env.example` vai ao repositório.
 
 ---
 
