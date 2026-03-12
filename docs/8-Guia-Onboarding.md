@@ -1,4 +1,4 @@
-# 🧠 Guia de Onboarding — MOODLY (Mood Tracker)
+# Guia de Onboarding — MOODLY (Mood Tracker)
 
 Guia técnico interno para a equipe de desenvolvimento.
 
@@ -41,12 +41,12 @@ Sistema_Humor_PUC/
     │   ├── signals.py      → Sinais do Django (hooks pós-save, etc.)
     │   └── tests.py        → Testes unitários
     │
-    ├── templates/          ← 🎨 Front-end — Todos os HTMLs
+    ├── templates/          ← Front-end — Todos os HTMLs
     │   ├── base.html       → Layout global (navbar, Bootstrap, blocks)
     │   ├── core/           → Templates do app core
     │   └── registration/   → Templates de autenticação
     │
-    └── static/             → 📦 Arquivos estáticos (CSS, JS, imagens)
+    └── static/             → Arquivos estáticos (CSS, JS, imagens)
         ├── css/
         ├── js/
         └── images/
@@ -123,7 +123,7 @@ python manage.py runserver
 
 ---
 
-## 🚀 Rotina Diária
+## Rotina Diária
 
 ```bash
 source venv/bin/activate   # Linux/Mac  (Windows: venv\Scripts\activate)
@@ -146,7 +146,7 @@ python manage.py runserver
 ## Boas Práticas de Git
 
 ```text
-⚠️  NUNCA commite diretamente na branch main.
+   NUNCA commite diretamente na branch main.
 ```
 
 1. **Crie uma branch** antes de começar qualquer tarefa:
