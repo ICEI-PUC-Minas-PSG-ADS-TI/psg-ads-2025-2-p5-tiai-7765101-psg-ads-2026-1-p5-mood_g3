@@ -64,7 +64,7 @@ Cada Wireframe ou Mockups devem estar associados a pelo menos:
 - Uma História de Usuário
 
 
-## 📌 Exemplo Ilustrativo – Tela de Cadastro (RF-01)
+## 📌 Tela de Registro de Humor Diário (RF-)
 
 **História associada:** Como usuário, quero registrar meu humor diário para acompanhar meu bem-estar emocional.
 
