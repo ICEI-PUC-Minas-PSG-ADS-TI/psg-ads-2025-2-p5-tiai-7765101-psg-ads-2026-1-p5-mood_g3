@@ -66,24 +66,22 @@ Cada Wireframe ou Mockups devem estar associados a pelo menos:
 
 ## 📌 Exemplo Ilustrativo – Tela de Cadastro (RF-01)
 
-**História associada:** Como usuário, quero criar uma conta para acessar o sistema.
+**História associada:** Como usuário, quero registrar meu humor diário para acompanhar meu bem-estar emocional.
 
 Representação simplificada do Wireframe:
 
-<img src="images/TelaCadastro.png" width="80%">
+<img src="images/Registro_Wireframe.png" width="80%">
 
-**Descrição:** A interface contempla todos os campos exigidos pelo RF-01 e permite persistência no banco após validação no backend.
+**Descrição:** A interface permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-.
 
 ---
-🔧 **Ferramentas sugeridas:**
-- Figma  
-- MarvelApp  
-- Balsamiq  
+🔧 **Ferramenta utilizada:**
+- Figma
+   
 ---
 
 ### 📎 Wireframes/ Mockups do Projeto de Software
 
-![Tela_Registro](https://github.com/ICEI-PUC-Minas-PSG-ADS-TI/psg-ads-2025-2-p5-tiai-7765101-psg-ads-2026-1-p5-mood_g3/blob/main/docs/images/Registro_Wireframe.png)
 
 
 ---
