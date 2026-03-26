@@ -81,10 +81,9 @@ Representação simplificada do Wireframe:
 - Balsamiq  
 ---
 
-### 📎 Inserir AQUI Wireframes/ Mockups do Projeto de Software
+### 📎 Wireframes/ Mockups do Projeto de Software
 
-🚨 O grupo deverá inserir aqui a imagem
-
+![Tela_Registro](https://github.com/ICEI-PUC-Minas-PSG-ADS-TI/psg-ads-2025-2-p5-tiai-7765101-psg-ads-2026-1-p5-mood_g3/blob/main/docs/images/Registro_Wireframe.png)
 
 
 ---
