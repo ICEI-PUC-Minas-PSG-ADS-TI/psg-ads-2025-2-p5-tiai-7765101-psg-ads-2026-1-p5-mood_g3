@@ -62,28 +62,25 @@ Cada Wireframe ou Mockups devem estar associados a pelo menos:
 
 - Um Requisito Funcional (RF-XX)
 - Uma História de Usuário
+  
+## 📎 Wireframes/ Mockups do Projeto de Software
 
+### 📌 Tela de Registro de Humor Diário (RF-03)
 
-## 📌 Tela de Registro de Humor Diário (RF-)
+**História associada:** Como usuário, eu quero registrar meu humor diariamente para que eu possar compreender meu estado emocional ao longo do tempo.
 
-**História associada:** Como usuário, quero registrar meu humor diário para acompanhar meu bem-estar emocional.
-
-Representação simplificada do Wireframe:
+Representação do Wireframe:
 
 <img src="images/Registro_Wireframe.png" width="80%">
 
-**Descrição:** A interface permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-.
+**Descrição:** A interface permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-03.
 
 ---
+
 🔧 **Ferramenta utilizada:**
+
 - Figma
    
----
-
-### 📎 Wireframes/ Mockups do Projeto de Software
-
-
-
 ---
 
 ## 4.4 Modelagem de Dados (Sprint 2 e 3)
