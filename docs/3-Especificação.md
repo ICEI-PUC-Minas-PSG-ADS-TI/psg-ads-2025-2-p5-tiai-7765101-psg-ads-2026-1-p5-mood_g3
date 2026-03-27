@@ -37,9 +37,6 @@ Os **Requisitos Funcionais (RF)** descrevem o que o sistema deve fazer.
 | RF-05 | O sistema deve permitir que o usuário exclua seus registros. | 🟡 MÉDIA |
 | RF-06 | O sistema deve permitir a visualização do histórico de registros emocionais. | 🔴 ALTA |
 | RF-07 | O sistema deve permitir filtrar registros por data ou período. | 🟡 MÉDIA | 
-| RF-08 | O sistema deve apresentar um dashboard com análise de humor. | 🔴 ALTA | 
-| RF-09 | O sistema deve permitir que o usuário visualize gráficos de frequência dos tipos de humor. | 🔴 ALTA | 
-| RF-10 | O sistema deve permitir que o usuário visualize padrões emocionais ao longo do tempo. | 🟡 MÉDIA | 
 
 ---
 
@@ -127,35 +124,6 @@ Eu quero filtrar meus registros por data ou período
 
 Para que eu encontre informações específicas com facilidade
 
-
-### MÓDULO: Dashboard e Análise
-
-### História 8 (relacionada ao RF-08)
-
-Como usuário
-
-Eu quero visualizar um dashboard com análise do meu humor
-
-Para que eu entenda melhor meu comportamento emocional
-
-
-### História 9 (relacionada ao RF-09)
-
-Como usuário
-
-Eu quero visualizar gráficos de frequência 
-
-Para que eu identifique quais emoções são mais recorrentes
-
-
-### História 10 (relacionada ao RF-10)
-
-Como usuário
-
-Eu quero visualizar padrões emocionais
-
-Para que eu identifique tendências no meu comportamento 
-
 ---
 
 # 3.3 Requisitos Não Funcionais
@@ -181,7 +149,6 @@ Eles garantem a qualidade da solução.
 | RNF-03 | O sistema deve ser responsivo para dispositivos móveis e desktops. | 🔴 ALTA |
 | RNF-04 | O sistema deve garantir persistência e integridade dos dados armazenados no banco de dados. | 🔴 ALTA |
 | RNF-05 | O sistema deve implementar autenticação segura de usuários para validação de credenciais. | 🔴 ALTA |
-| RNF-06 | O sistema deve garantir segurança e privacidade dos dados dos usuários por meio de controle de acesso. | 🔴 ALTA |
 
 ---
 
@@ -206,12 +173,11 @@ Elas podem envolver:
 | ID  | Restrição |
 |-----|-----------|
 |R-01| O projeto deve ser desenvolvido até o final do semestre. |
-|R-02| O sistema dev ser desenvolvido como aplicação web. |
+|R-02| O sistema deve ser desenvolvido como aplicação web. |
 |R-03| O sistema deve utilizar banco de dados relacional definido pela equipe. |
-|R-04| O sistema deve utilizar tecnologias web definidas pela equipe. |
-|R-05| O desenvolvimento do projeto deve respeitar os prazos estabelecidos para cada etapa.	|
-|R-06| O sistema deve passar por testes de validação antes de cada entrega parcial. |
-|R-07| O projeto deve ser revisado pela equipe antes da entrega final. |
+|R-04| O desenvolvimento do projeto deve respeitar os prazos estabelecidos para cada etapa.	|
+|R-05| O sistema deve passar por testes de validação antes de cada entrega parcial. |
+|R-06| O projeto deve ser revisado pela equipe antes da entrega final. |
 
 ---
 
@@ -235,9 +201,7 @@ A tabela abaixo deve ser preenchida com as regras de negócio que **impactam seu
 | RN-03 |	Se as credenciais informadas forem inválidas, então o login deve ser negado. | 
 | RN-04 |	Se um usuário não selecionar um humor, então o registro não deve ser salvo. | 
 | RN-05 |	Se não houver registros cadastrados, então o sistema deve informar que não há dados disponíveis. | 
-| RN-06 |	Se um usuário acessar o dashboard, então apenas seus dados devem ser exibidos. | 
-| RN-07 |	Se um usuário aplicar filtros de data, então apenas os registros do período selecionado devem ser exibidos. | 
-| RN-08 |	Se um usuário desejar editar seus dados, então ele deve estar autenticado. | 
-| RN-09 |	Se os dados do usuário forem armazenados, então devem ser protegidos e não compartilhados sem autorização. | 
+| RN-06 |	Se um usuário aplicar filtros de data, então apenas os registros do período selecionado devem ser exibidos. | 
+| RN-07 |	Se os dados do usuário forem armazenados, então devem ser protegidos e não compartilhados sem autorização. | 
 
 ---
