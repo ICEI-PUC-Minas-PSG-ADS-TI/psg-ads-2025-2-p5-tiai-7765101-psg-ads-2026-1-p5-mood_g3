@@ -12,6 +12,7 @@ O projeto adota uma metodologia ágil, simulando o ambiente de uma Software Hous
 <br>Todos os integrantes são **Desenvolvedores Full-Stack** e devem implementar **Fatias Verticais (Vertical Slices)**.
 
 ✔️ Cada membro deve entregar a funcionalidade completa:  
+
 **Banco de Dados → API → Tela**
 
 ---
@@ -133,23 +134,23 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 
 # 🟢 Sprint 1 – Setup
 
-| Responsável | Papel | Tarefa | Início | Prazo | Status |
-|-------------|--------|--------|--------|--------|--------|
-| Camila Machado Pires Maia          | Facilitador Ágil       | Criar repositório, desenvolver tela de "Login" e formatação | 26/02 | 12/03 | ✔️ |
-| Diego Rodrigues da Cruz        | Gerente de Qualidade       | Preencher o README.md e Planejamento-Projeto.md | 26/02 | 12/03 | ✔️ |
-| Francisco Henrique de Moura            | Arquiteto de Dados       | Elaborar o Contexto.md e organizar a estrutura de páginas | 26/02 | 12/03 | ✔️ |
-| Fredson Marinho Almeida Borges           | Tech Lead        | Criar instância do Banco de Dados | 26/02 | 12/03 | ✔️ |
+| Responsável                    | Papel                | Tarefa                                                      | Início | Prazo | Status |
+|--------------------------------|----------------------|-------------------------------------------------------------|--------|-------|--------|
+| Camila Machado Pires Maia      | Facilitador Ágil     | Criar repositório, desenvolver tela de "Login" e formatação | 26/02  | 12/03 | ✔️ |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Preencher o README.md e Planejamento-Projeto.md             | 26/02  | 12/03 | ✔️ |
+| Francisco Henrique de Moura    | Arquiteto de Dados   | Elaborar o Contexto.md e organizar a estrutura de páginas   | 26/02  | 12/03 | ✔️ |
+| Fredson Marinho Almeida Borges | Tech Lead            | Criar instância do Banco de Dados                           | 26/02  | 12/03 | ✔️ |
 
 ---
 
 # 🟡 Sprint 2 – MVP
 
-| Responsável | Papel | Tarefa | Início | Prazo | Status |
-|-------------|--------|--------|--------|--------|--------|
-|             |        | Gerar Script do Banco de Dados | 21/03 | 24/03 | ❌ |
-|             |        | Desenvolver Fatia 1 (BD + API + Tela) | 22/03 | 30/03 | ❌ |
-|             |        | Documentar Requisitos do MVP | 25/03 | 02/04 | ❌ |
-|             |        | Revisão técnica e Merge | 02/04 | 05/04 | ❌ |
+| Responsável                    | Papel                | Tarefa                                                                              | Início | Prazo | Status |
+|--------------------------------|----------------------|-------------------------------------------------------------------------------------|--------|-------|--------|
+| Camila Machado Pires Maia      | Facilitador Ágil     | Elaborar Especificacao.md, criar Wireframe e desenvolver Tela Cadastro (front/back) | 19/03  | 06/04 | 📝 |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade |                                                                                     | 19/03  | 06/04 | ❌ |
+| Francisco Henrique de Moura    | Arquiteto de Dados   |                                                                                     | 19/03  | 06/04 | ❌ |
+| Fredson Marinho Almeida Borges | Tech Lead            |                                                                                     | 19/03  | 06/04 | ❌ |
 
 ---
 
