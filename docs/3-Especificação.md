@@ -1,4 +1,3 @@
-
 # 3. Especificações do Projeto
 
 📌 **Pré-requisito:** Planejamento do Projeto (Cronograma e Sprints definidos).
@@ -10,7 +9,7 @@ Nesta seção serão detalhados:
 - ✅ Requisitos Não Funcionais  
 - ✅ Restrições do Projeto  
 
-O objetivo é organizar claramente as funcionalidades, qualidades e limites da solução.
+**Objetivo**: organizar claramente as funcionalidades, qualidades e limites da solução.
 
 ---
 
@@ -19,26 +18,28 @@ O objetivo é organizar claramente as funcionalidades, qualidades e limites da s
 Os **Requisitos Funcionais (RF)** descrevem o que o sistema deve fazer.
 
 📌 Cada requisito deve:
+
 - Representar uma funcionalidade única
 - Ser claro e objetivo
 - Orientar diretamente o desenvolvimento
 
 ---
 
+
 ## Tabela de Requisitos Funcionais
 
-| ID    | Descrição do Requisito | Prioridade |
-|-------|------------------------|------------|
-| RF-01 | O sistema deve permitir que os usuários criem uma conta informando nome, e-mail, senha e endereço. | 🔴 ALTA |
-| RF-02 | O sistema deve permitir que os usuários adicionem produtos ao carrinho de compras. | 🟡 MÉDIA |
-| RF-03 | (Descreva aqui o requisito funcional 3 do seu sistema) | (Alta/Média/Baixa) |
-| RF-04 | (Descreva aqui o requisito funcional 4 do seu sistema) | (Alta/Média/Baixa) |
-| RF-05 | (Descreva aqui o requisito funcional 5 do seu sistema) | (Alta/Média/Baixa) |
-| RF-06 | (Descreva aqui o requisito funcional 6 do seu sistema) | (Alta/Média/Baixa) |
-| RF-07 | (Descreva aqui o requisito funcional 7 do seu sistema) | (Alta/Média/Baixa) |
-| RF-08 | (Descreva aqui o requisito funcional 8 do seu sistema) | (Alta/Média/Baixa) |
-| RF-09 | (Descreva aqui o requisito funcional 9 do seu sistema) | (Alta/Média/Baixa) |
-| RF-10 | (Descreva aqui o requisito funcional 10 do seu sistema) | (Alta/Média/Baixa) |
+| ID    | Descrição do Requisito | Prioridade | 
+|-------|------------------------|------------| 
+| RF-01 | O sistema deve permitir que usuários realizem cadastro informando nome, e-mail e senha. | 🔴 ALTA | 
+| RF-02 | O sistema deve permitir que usuários realizem login com credenciais válidas. | 🔴 ALTA | 
+| RF-03 | O sistema deve permitir que o usuário registre seu humor diário. | 🔴 ALTA | 
+| RF-04 | O sistema deve permitir que o usuário adicione observações ao registro de humor. | 🟡 MÉDIA | 
+| RF-05 | O sistema deve permitir que o usuário exclua seus registros. | 🟡 MÉDIA |
+| RF-06 | O sistema deve permitir a visualização do histórico de registros emocionais. | 🔴 ALTA |
+| RF-07 | O sistema deve permitir filtrar registros por data ou período. | 🟡 MÉDIA | 
+| RF-08 | O sistema deve apresentar um dashboard com análise de humor. | 🔴 ALTA | 
+| RF-09 | O sistema deve permitir que o usuário visualize gráficos de frequência dos tipos de humor. | 🔴 ALTA | 
+| RF-10 | O sistema deve permitir que o usuário visualize padrões emocionais ao longo do tempo. | 🟡 MÉDIA | 
 
 ---
 
@@ -50,50 +51,110 @@ Cada história deve seguir o padrão ensinado na disciplina:
 > **eu quero** [funcionalidade],  
 > **para que** [benefício].
 
-⚠️ **ATENÇÃO:**  
 Cada História de Usuário deve estar associada a um Requisito Funcional específico (RF-XX).
-
----
-
-## Exemplos
-
-**História 1 (relacionada ao RF-01):**  
-Como usuário, quero registrar minhas tarefas para não esquecer de fazê-las.
-
-**História 2 (relacionada ao RF-02):**  
-Como administrador, quero alterar permissões para controlar o acesso ao sistema.
-
----
 
 ## Histórias do Projeto
 
 ---
 
+### MÓDULO: Cadastro e Autenticação
+
 ### História 1 (relacionada ao RF-01)
 
-Como __________________________________________  
-Eu quero _______________________________________  
-Para que _______________________________________
+Como usuário
 
----
+Eu quero criar uma conta 
+
+Para que eu possa acessar o sistema de forma segura
+
 
 ### História 2 (relacionada ao RF-02)
 
-Como __________________________________________  
-Eu quero _______________________________________  
-Para que _______________________________________
+Como usuário
+
+Eu quero realizar login com meu e-mail e senha
+
+Para que eu possa acessar meus registros de humor
 
 ---
 
-### História 3 (relacionada ao RF-__)
+### MÓDULO: Registro de Humor
 
-Como __________________________________________  
-Eu quero _______________________________________  
-Para que _______________________________________
+### História 3 (relacionada ao RF-03)
+
+Como usuário
+
+Eu quero registrar meu humor diariamente
+
+Para que eu possar compreender meu estado emocional ao longo do tempo
+
+
+### História 4 (relacionada ao RF-04)
+
+Como usuário
+
+Eu quero adicionar observações aos meus registros
+
+Para que eu possa detalhar melhor como foi meu dia
+
+
+### História 5 (relacionada ao RF-05)
+
+Como usuário
+
+Eu quero excluir meus registros de humor
+
+Para que eu possa remover informações indesejadas
 
 ---
 
-> 💡 Dica: Agrupe as histórias por módulo (Cadastro, Relatórios, Pagamentos, etc.) para melhor organização.
+### MÓDULO: Histórico de Registros
+
+### História 6 (relacionada ao RF-06)
+
+Como usuário
+
+Eu quero visualizar meu histórico de registros emocionais
+
+Para que eu possa analisar ao longo do tempo
+
+
+### História 7 (relacionada ao RF-07)
+
+Como usuário
+
+Eu quero filtrar meus registros por data ou período
+
+Para que eu encontre informações específicas com facilidade
+
+
+### MÓDULO: Dashboard e Análise
+
+### História 8 (relacionada ao RF-08)
+
+Como usuário
+
+Eu quero visualizar um dashboard com análise do meu humor
+
+Para que eu entenda melhor meu comportamento emocional
+
+
+### História 9 (relacionada ao RF-09)
+
+Como usuário
+
+Eu quero visualizar gráficos de frequência 
+
+Para que eu identifique quais emoções são mais recorrentes
+
+
+### História 10 (relacionada ao RF-10)
+
+Como usuário
+
+Eu quero visualizar padrões emocionais
+
+Para que eu identifique tendências no meu comportamento 
 
 ---
 
@@ -115,12 +176,12 @@ Eles garantem a qualidade da solução.
 
 | ID     | Descrição do Requisito | Prioridade |
 |--------|------------------------|------------|
-| RNF-01 | O sistema deve carregar as páginas em até 3 segundos. | 🟡 MÉDIA |
-| RNF-02 | O sistema deve proteger as informações dos clientes por meio de criptografia. | 🔴 ALTA |
-| RNF-03 | (Descreva aqui o requisito não funcional 3 do seu sistema) | (Alta/Média/Baixa) |
-| RNF-04 | (Descreva aqui o requisito não funcional 4 do seu sistema) | (Alta/Média/Baixa) |
-| RNF-05 | (Descreva aqui o requisito não funcional 5 do seu sistema) | (Alta/Média/Baixa) |
-| RNF-06 | (Descreva aqui o requisito não funcional 6 do seu sistema) | (Alta/Média/Baixa) |
+| RNF-01 | O sistema deve processar requisições do usuário em no máximo 3s. | 🟡 MÉDIA |
+| RNF-02 | O sistema deve possuir interface intuitiva e amigável. | 🔴 ALTA |
+| RNF-03 | O sistema deve ser responsivo para dispositivos móveis e desktops. | 🔴 ALTA |
+| RNF-04 | O sistema deve garantir persistência e integridade dos dados armazenados no banco de dados. | 🔴 ALTA |
+| RNF-05 | O sistema deve implementar autenticação segura de usuários para validação de credenciais. | 🔴 ALTA |
+| RNF-06 | O sistema deve garantir segurança e privacidade dos dados dos usuários por meio de controle de acesso. | 🔴 ALTA |
 
 ---
 
@@ -129,6 +190,7 @@ Eles garantem a qualidade da solução.
 📌 **Restrições** são limitações externas impostas ao projeto.
 
 Elas podem envolver:
+
 - 📅 Prazo
 - 🖥️ Tecnologia obrigatória ou proibida
 - 🌐 Ambiente de execução
@@ -143,16 +205,16 @@ Elas podem envolver:
 
 | ID  | Restrição |
 |-----|-----------|
-| R-01 | O projeto deverá ser entregue até o final do semestre. |
-| R-02 | O sistema deve funcionar apenas dentro da rede interna da empresa. |
-| R-03 | O software deve ser compatível com Windows e Linux. |
-| R-04 | (Descreva aqui a restrição 4 do seu projeto) |
-| R-05 | (Descreva aqui a restrição 5 do seu projeto) |
-| R-06 | (Descreva aqui a restrição 6 do seu projeto) |
-| R-07 | (Descreva aqui a restrição 7 do seu projeto) |
-| R-08 | (Descreva aqui a restrição 8 do seu projeto) |
+|R-01| O projeto deve ser desenvolvido até o final do semestre. |
+|R-02| O sistema dev ser desenvolvido como aplicação web. |
+|R-03| O sistema deve utilizar banco de dados relacional ou NoSQL. |
+|R-04| O sistema deve utilizar tecnologias web definidas pela equipe. |
+|R-05| O desenvolvimento do projeto deve respeitar os prazos estabelecidos para cada etapa.	|
+|R-06| O sistema deve passar por testes de validação antes de cada entrega parcial. |
+|R-07| O projeto deve ser revisado pela equipe antes da entrega final. |
 
 ---
+
 ## 3.5 Regras de Negócio
 
 > Regras de Negócio definem as condições e políticas que o sistema deve seguir para garantir o correto funcionamento alinhado ao negócio.  
@@ -161,27 +223,23 @@ Elas podem envolver:
 >  
 > **Se (condição) for verdadeira, então (ação) deve ser tomada.**  
 >  
-> Exemplo:  
-> - "Um usuário só poderá finalizar um cadastro se todos os dados forem inseridos e validados com sucesso."  
->  
-> Também pode ser escrito assim (if/then):  
-> - "Se o usuário tem saldo acima de X, então a opção de empréstimo estará liberada."
 
 ---
 
- A tabela abaixo deve ser preenchida com as regras de negócio que **impactam seu projeto**. Os textos no quadro são apenas ilustrativos.
+A tabela abaixo deve ser preenchida com as regras de negócio que **impactam seu projeto**. 
 
-|ID    | Regra de Negócio                                                       |
+|  ID   | Regra de Negócio                                                      |
 |-------|-----------------------------------------------------------------------|
-|RN-01 | Usuário só pode cadastrar até 10 tarefas por dia.                      |
-|RN-02 | Apenas administradores podem alterar permissões de usuários.           |
-|RN-03 | Tarefas vencidas devem ser destacadas em vermelho no sistema.          |
-|RN-04 | *(Descreva aqui a restrição 4 do seu projeto)*                         |
-|RN-05 | *(Descreva aqui a restrição 5 do seu projeto)*                         |
-
-💡 **Dica:** Explique sempre o motivo ou impacto da regra no sistema.
+| RN-01 | Se um usuário não estiver autenticado, então o acesso às funcionalidades deve ser bloqueado. |                 
+| RN-02 |	Se um usuário tentar acessar dados de outro usuário, então o acesso deve ser negado. | 
+| RN-03 |	Se os campos obrigatórios não forem preenchidos corretamente, então o cadastro não deve ser concluído. | 
+| RN-04 |	Se as credenciais informadas forem inválidas, então o login deve ser negado. | 
+| RN-05 |	Se um usuário não selecionar um humor, então o registro não deve ser salvo. | 
+| RN-06 |	Se um usuário não adicionar observações, então o registro poderá ser salvo normalmente. | 
+| RN-07 |	Se não houver registros cadastrados, então o sistema deve informar que não há dados disponíveis. | 
+| RN-08 |	Se um usuário acessar o dashboard, então apenas seus dados devem ser exibidos. | 
+| RN-09 |	Se um usuário aplicar filtros de data, então apenas os registros do período selecionado devem ser exibidos. | 
+| RN-10 |	Se um usuário desejar editar seus dados, então ele deve estar autenticado. | 
+| RN-11 |	Se os dados do usuário forem armazenados, então devem ser protegidos e não compartilhados sem autorização. | 
 
 ---
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
