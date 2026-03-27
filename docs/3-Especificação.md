@@ -231,15 +231,13 @@ A tabela abaixo deve ser preenchida com as regras de negócio que **impactam seu
 |  ID   | Regra de Negócio                                                      |
 |-------|-----------------------------------------------------------------------|
 | RN-01 | Se um usuário não estiver autenticado, então o acesso às funcionalidades deve ser bloqueado. |                 
-| RN-02 |	Se um usuário tentar acessar dados de outro usuário, então o acesso deve ser negado. | 
-| RN-03 |	Se os campos obrigatórios não forem preenchidos corretamente, então o cadastro não deve ser concluído. | 
-| RN-04 |	Se as credenciais informadas forem inválidas, então o login deve ser negado. | 
-| RN-05 |	Se um usuário não selecionar um humor, então o registro não deve ser salvo. | 
-| RN-06 |	Se um usuário não adicionar observações, então o registro poderá ser salvo normalmente. | 
-| RN-07 |	Se não houver registros cadastrados, então o sistema deve informar que não há dados disponíveis. | 
-| RN-08 |	Se um usuário acessar o dashboard, então apenas seus dados devem ser exibidos. | 
-| RN-09 |	Se um usuário aplicar filtros de data, então apenas os registros do período selecionado devem ser exibidos. | 
-| RN-10 |	Se um usuário desejar editar seus dados, então ele deve estar autenticado. | 
-| RN-11 |	Se os dados do usuário forem armazenados, então devem ser protegidos e não compartilhados sem autorização. | 
+| RN-02 |	Se os campos obrigatórios não forem preenchidos corretamente, então o cadastro não deve ser concluído. | 
+| RN-03 |	Se as credenciais informadas forem inválidas, então o login deve ser negado. | 
+| RN-04 |	Se um usuário não selecionar um humor, então o registro não deve ser salvo. | 
+| RN-05 |	Se não houver registros cadastrados, então o sistema deve informar que não há dados disponíveis. | 
+| RN-06 |	Se um usuário acessar o dashboard, então apenas seus dados devem ser exibidos. | 
+| RN-07 |	Se um usuário aplicar filtros de data, então apenas os registros do período selecionado devem ser exibidos. | 
+| RN-08 |	Se um usuário desejar editar seus dados, então ele deve estar autenticado. | 
+| RN-09 |	Se os dados do usuário forem armazenados, então devem ser protegidos e não compartilhados sem autorização. | 
 
 ---
