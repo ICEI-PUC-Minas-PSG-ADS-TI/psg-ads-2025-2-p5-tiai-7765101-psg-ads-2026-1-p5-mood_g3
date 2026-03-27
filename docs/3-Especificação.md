@@ -113,7 +113,7 @@ Como usuário
 
 Eu quero visualizar meu histórico de registros emocionais
 
-Para que eu possa analisar ao longo do tempo
+Para que eu possa analisar e acompanhar a evolução das minhas emoções
 
 
 ### História 7 (relacionada ao RF-07)
