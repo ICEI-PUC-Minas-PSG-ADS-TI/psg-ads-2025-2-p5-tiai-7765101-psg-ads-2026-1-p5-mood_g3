@@ -207,7 +207,7 @@ Elas podem envolver:
 |-----|-----------|
 |R-01| O projeto deve ser desenvolvido até o final do semestre. |
 |R-02| O sistema dev ser desenvolvido como aplicação web. |
-|R-03| O sistema deve utilizar banco de dados relacional ou NoSQL. |
+|R-03| O sistema deve utilizar banco de dados relacional definido pela equipe. |
 |R-04| O sistema deve utilizar tecnologias web definidas pela equipe. |
 |R-05| O desenvolvimento do projeto deve respeitar os prazos estabelecidos para cada etapa.	|
 |R-06| O sistema deve passar por testes de validação antes de cada entrega parcial. |
