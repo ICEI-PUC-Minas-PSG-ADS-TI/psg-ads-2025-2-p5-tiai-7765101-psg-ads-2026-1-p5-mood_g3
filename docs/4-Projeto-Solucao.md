@@ -93,10 +93,6 @@ Representação do Wireframe:
 
 **Descrição:** A interface permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-03.
 
-### 📌 Tela Inicial 
-
-<img src="images/HomePage.png" width="80%">
-
 ---
 
 🔧 **Ferramenta utilizada:**
