@@ -65,15 +65,37 @@ Cada Wireframe ou Mockups devem estar associados a pelo menos:
   
 ## 📎 Wireframes/ Mockups do Projeto de Software
 
+### 📌 Tela Inicial
+
+Representação do Wireframe:
+
+<img src="images/HomePage.png" width="80%">
+
+### 📌 Tela de Login
+
+Representação do Wireframe:
+
+<img src="images/Login.png" width="80%">
+
+### 📌 Tela de Cadastro
+
+Representação do Wireframe:
+
+<img src="images/Cadastro.png" width="80%">
+
 ### 📌 Tela de Registro de Humor Diário (RF-03)
 
 **História associada:** Como usuário, eu quero registrar meu humor diariamente para que eu possar compreender meu estado emocional ao longo do tempo.
 
 Representação do Wireframe:
 
-<img src="images/Registro_Wireframe.png" width="80%">
+<img src="images/Registro_Humor.png" width="80%">
 
 **Descrição:** A interface permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-03.
+
+### 📌 Tela Inicial 
+
+<img src="images/HomePage.png" width="80%">
 
 ---
 
