@@ -25,7 +25,7 @@ Sistema_Humor_PUC/
 ├── docs/                   ← Documentação acadêmica + este guia
 ├── requirements.txt        ← Dependências Python
 │
-└── src/                    ← 🔧 TODO o código Django fica aqui
+└── src/                    ← TODO o código Django fica aqui
     ├── manage.py
     ├── projeto/            ← Configurações globais (settings, urls raiz)
     │
