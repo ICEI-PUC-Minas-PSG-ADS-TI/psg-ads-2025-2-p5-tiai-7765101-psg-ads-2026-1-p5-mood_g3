@@ -114,7 +114,8 @@ body {
 }
 
 .buttonsHumors:hover {
-  background: rgb(100, 98, 98);
+  background: #9810fa;
+  color: white;
 }
 
 #inputData {
@@ -170,6 +171,39 @@ input[type="range"]::-moz-range-thumb {
   height: 120px;
   border: 2px #9810fa solid;
   border-radius: 12px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 600px;
+}
+
+/* esconde checkbox */
+.tags input {
+  display: none;
+}
+
+/* estilo padrão */
+.tags label {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #f0f0f0;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+/* hover */
+.tags label:hover {
+  background: #ddd;
+}
+
+/* quando estiver marcado */
+.tags input:checked + label {
+  background: #9810fa;
+  color: white;
 }
 
 #footer {
