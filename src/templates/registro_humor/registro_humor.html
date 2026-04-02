@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3f66e61998.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../../static/css/reg_humor.css" />
+    <title>Registro de Humor</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="Logo">
+        <img
+          src="../../static/img/logo.png"
+          class="imgLogo"
+          alt="Logo do Site"
+        />
+        <p class="paragLogo">MOODLY</p>
+      </div>
+      <div id="header_config">
+        <div id="hUser">
+          <i class="fa-regular fa-user" style="color: #9810fa"></i>
+          <p>Usuario</p>
+        </div>
+        <div id="divSair">
+          <button id="buttonSair">
+            <i
+              class="fa-solid fa-arrow-right-from-bracket"
+              style="padding: 0px 9px"
+            ></i
+            >Sair
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <div id="divbuttonPages">
+        <button class="buttonPages">Dashboard</button>
+        <button class="buttonPages" id="buttonRegHumor">
+          <i class="fa-solid fa-circle-plus" style="padding-right: 5px"></i>
+          Registrar Humor
+        </button>
+        <button class="buttonPages">
+          <i
+            class="fa-solid fa-clock-rotate-left"
+            style="padding-right: 5px"
+          ></i
+          >Histórico
+        </button>
+      </div>
+      <div>
+        <h1>Registro de Humor Diário</h1>
+        <div>
+          <h3 style="font-weight: bold">Como você está se sentindo hoje?</h3>
+          <div>
+            <p style="color: gray; margin-left: 20px">
+              1. Selecione o humor que melhor representa seu estado emocional
+              agora.
+            </p>
+            <div id="divHumors">
+              <button class="buttonsHumors" id="buttonMtFeliz">
+                Muito Feliz
+              </button>
+              <button class="buttonsHumors" id="buttonFeliz">Feliz</button>
+              <button class="buttonsHumors" id="buttonNeutro">Neutro</button>
+              <button class="buttonsHumors" id="buttonTriste">Triste</button>
+              <button class="buttonsHumors" id="buttonMtTriste">
+                Muito Triste
+              </button>
+              <button class="buttonsHumors" id="buttonCansado">Cansado</button>
+              <button class="buttonsHumors" id="buttonAnsioso">Ansioso</button>
+              <button class="buttonsHumors" id="buttonAliviado">
+                Aliviado
+              </button>
+            </div>
+          </div>
+          <div>
+            <p style="color: gray; margin-left: 20px">
+              2. Selecione a data e o horário do registro.
+            </p>
+            <input type="date" name="" id="inputData" />
+            <input type="time" name="" id="inputHoras" />
+          </div>
+        </div>
+        <div id="divIntensidade">
+          <h2>Intensidade</h2>
+          <div>
+            <p style="color: gray">
+              Como você avalia a intensidade desse humor? (Para 1 = Leve e 5 =
+              Forte)
+            </p>
+            <div>
+              <input
+                type="range"
+                name=""
+                id="inputRange"
+                min="1"
+                max="5"
+                value="3"
+              />
+              <div class="valores">
+                <span>1</span>
+                <span id="valorAtual">3</span>
+                <span>5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="divAtvDia">
+          <h2>Atividades do Dia</h2>
+          <div>
+            <p style="color: gray">
+              Selecione as atividades que você realizou ou que influenciaram seu
+              humor.
+            </p>
+          </div>
+        </div>
+        <div id="divObservacoes">
+          <div>
+            <h2>Observações (Opcional)</h2>
+            <p style="color: gray">
+              Escreva sobre seu dia, eventos ou pensamentos que gostaria de
+              registrar.
+            </p>
+            <div>
+              <input
+                type="text"
+                placeholder="Hoje foi um dia..."
+                id="inputObs"
+              />
+              <div>
+                <button id="buttonCancelar">Cancelar</button>
+                <button id="buttonSalvarReg">Salvar Registro</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="footer">
+        <div class="Logo">
+          <img src="../../static/img/logo.png" class="imgLogo" alt="Logo do Site" />
+          <p class="paragLogo">MOODLY</p>
+        </div>
+        <div id="contatos">
+            <p>Fale com a gente!</p>
+            <p>moodly@gmail.com</p>
+            <p>(31) XXXX-XXXX</p>
+        </div>
+        <div id="social"></div>
+      </div> -->
+  </body>
+</html>

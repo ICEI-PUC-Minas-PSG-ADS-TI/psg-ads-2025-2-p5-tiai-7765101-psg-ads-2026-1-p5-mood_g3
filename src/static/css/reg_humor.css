@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  padding: 50px 60px;
+}
+
+#header {
+  width: 100%;
+  height: 8em;
+  padding: 15px;
+  background-color: #dcccff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.imgLogo {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+
+.paragLogo {
+  font-size: larger;
+  font-weight: bold;
+}
+
+#header_config {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#hUser {
+  display: flex;
+  align-items: center;
+}
+
+#hUser > p {
+  color: #9810fa;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+#buttonSair {
+  color: white;
+  background-color: #9810fa;
+  border: #9810fa;
+  font-size: 1.1em;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#buttonSair:hover {
+  background-color: #8106da;
+}
+#divbuttonPages {
+  padding-bottom: 3em;
+}
+
+.buttonPages {
+  background: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 6px 16px;
+  border: 1px solid #eadfdf;
+}
+
+.buttonPages:hover {
+  background-color: #8106da;
+  color: white;
+}
+
+#buttonRegHumor {
+  background-color: black;
+  color: white;
+}
+
+#buttonRegHumor:hover {
+  background-color: rgb(100, 98, 98);
+}
+
+#divHumors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  align-items: center;
+  width: 95%;
+}
+
+.buttonsHumors {
+  font-weight: bold;
+  padding: 40px;
+  background: white;
+  border-radius: 18px;
+  border: 3px solid #eadfdf;
+}
+
+.buttonsHumors:hover {
+  background: rgb(100, 98, 98);
+}
+
+#inputData {
+  margin-left: 55px;
+}
+
+#divIntensidade {
+  width: 500px;
+  font-family: Arial, sans-serif;
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* bolinha */
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: #4a6cf7;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: #4a6cf7;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.valores {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#valorAtual {
+  color: #4a6cf7;
+  font-weight: bold;
+}
+
+#inputObs {
+  width: 1000px;
+  height: 120px;
+  border: 2px #9810fa solid;
+  border-radius: 12px;
+}
+
+#footer {
+  width: 100%;
+  height: 8em;
+  padding: 20px;
+  background-color: #dcccff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contatos {
+  width: 100%;
+}
+
+#social {
+  width: 100%;
+}
