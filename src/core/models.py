@@ -4,33 +4,35 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 
 from .managers import MoodEntryQuerySet
 
-
 class MoodEntry(models.Model):
-    """Represents a single mood/emotion record for a given user."""
-
+    # Agora com as 8 opções que estão no seu HTML
     class Emotion(models.TextChoices):
-        HAPPY = "HAPPY", "Happy"
-        SAD = "SAD", "Sad"
-        NEUTRAL = "NEUTRAL", "Neutral"
-        ANXIOUS = "ANXIOUS", "Anxious"
-        STRESSED = "STRESSED", "Stressed"
+        MUITO_FELIZ = "MUITO_FELIZ", "Muito Feliz"
+        FELIZ = "FELIZ", "Feliz"
+        NEUTRO = "NEUTRO", "Neutro"
+        TRISTE = "TRISTE", "Triste"
+        MUITO_TRISTE = "MUITO_TRISTE", "Muito Triste"
+        CANSADO = "CANSADO", "Cansado"
+        ANSIOSO = "ANSIOSO", "Ansioso"
+        ALIVIADO = "ALIVIADO", "Aliviado"
 
-    user = models.ForeignKey(
-        User,
-        on_delete=models.CASCADE,
-        related_name="mood_entries",
-    )
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="mood_entries")
     created_at = models.DateTimeField(auto_now_add=True)
+    
+    # Ajustado para 1 a 5, conforme o seu <input type="range">
     intensity_level = models.IntegerField(
-        validators=[MinValueValidator(1), MaxValueValidator(10)],
-        help_text="Scale from 1 to 10",
+        validators=[MinValueValidator(1), MaxValueValidator(5)],
+        help_text="Escala de 1 a 5",
     )
+    
     emotion = models.CharField(
         max_length=20,
         choices=Emotion.choices,
-        default=Emotion.NEUTRAL,
+        default=Emotion.NEUTRO,
     )
     notes = models.TextField(blank=True, null=True)
+
+    # ... restante do código (objects, Meta, __str__)
 
     objects = MoodEntryQuerySet.as_manager()
 
