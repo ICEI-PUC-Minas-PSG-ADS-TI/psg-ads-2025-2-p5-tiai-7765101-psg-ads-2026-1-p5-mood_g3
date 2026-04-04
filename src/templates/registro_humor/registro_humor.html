@@ -50,29 +50,58 @@
             <input type="hidden" name="emotion" id="selected_emotion" required>
 
             <div id="divHumors">
-              <button type="button" class="buttonsHumors" onclick="setEmotion('MUITO_FELIZ', this)">Muito Feliz</button>
-              <button type="button" class="buttonsHumors" onclick="setEmotion('FELIZ', this)">Feliz</button>
-              <button type="button" class="buttonsHumors" onclick="setEmotion('NEUTRO', this)">Neutro</button>
-              <button type="button" class="buttonsHumors" onclick="setEmotion('TRISTE', this)">Triste</button>
-              <button type="button" class="buttonsHumors" onclick="setEmotion('MUITO_TRISTE', this)">Muito Triste</button>
-              <button type="button" class="buttonsHumors" onclick="setEmotion('CANSADO', this)">Cansado</button>
-              <button type="button" class="buttonsHumors" onclick="setEmotion('ANSIOSO', this)">Ansioso</button>
-              <button type="button" class="buttonsHumors" onclick="setEmotion('ALIVIADO', this)">Aliviado</button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('MUITO_FELIZ', this)">
+                <i class="fa-regular fa-heart iconsHumors" style="color: #c606da;"></i>
+                Muito Feliz
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('FELIZ', this)">
+                <i class="fa-regular fa-face-smile iconsHumors" style="color: rgb(83, 225, 68);"></i>
+                Feliz
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('NEUTRO', this)">
+                <i class="fa-regular fa-face-meh iconsHumors" style="color: rgb(247, 208, 70);"></i>
+                Neutro
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('TRISTE', this)">
+                <i class="fa-regular fa-face-frown iconsHumors" style="color: rgb(16, 91, 244);"></i>
+                Triste
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('MUITO_TRISTE', this)">
+                <i class="fa-regular fa-face-angry iconsHumors" style="color: rgb(246, 47, 47);"></i>
+                Muito Triste
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('CANSADO', this)">
+                <i class="fa-solid fa-mug-hot iconsHumors" style="color: rgb(238, 133, 6);"></i>
+                Cansado
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('ANSIOSO', this)">
+                <i class="fa-solid fa-bolt iconsHumors" style="color: rgb(127, 59, 241);"></i>
+                Ansioso
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('ALIVIADO', this)">
+                <i class="fa-regular fa-face-grin-beam iconsHumors" style="color: rgb(0, 222, 248);"></i>
+                Aliviado
+              </button>
             </div>
           </div>
 
           <div id="divIntensidade">
             <h2>Intensidade</h2>
             <p style="color: gray">Como você avalia a intensidade desse humor? (1 = Leve e 5 = Forte)</p>
-            <input type="range" name="intensity_level" id="inputRange" min="1" max="5" value="3" oninput="document.getElementById('valorAtual').innerText = this.value" />
-            <div class="valores">
-              <span>1</span> <span id="valorAtual">3</span> <span>5</span>
+            <div id="divRadius">
+              <input type="range" name="intensity_level" id="inputRange" min="1" max="5" value="3" oninput="document.getElementById('valorAtual').innerText = this.value" />
+             
+              <div class="valores">
+                <span>1</span> <span id="valorAtual">3</span> <span>5</span>
+              </div>
             </div>
           </div>
 
           <div id="divAtvDia">
             <h2>Atividades do Dia</h2>
-            <p style="color: gray">Selecione as atividades que você realizou.</p>
+            <p style="color: gray">
+              Selecione as atividades que você realizou ou que influcienciaram seu humor hoje.
+            </p>
             <div class="tags">
               <input type="checkbox" name="activities" value="trabalho" id="t1" /> <label for="t1">Trabalho/Estudo</label>
               <input type="checkbox" name="activities" value="exercicio" id="t2" /> <label for="t2">Exercício Físico</label>
@@ -94,17 +123,49 @@
 
           <div id="divObservacoes">
             <h2>Observações (Opcional)</h2>
-            <p style="color: gray">Escreva sobre seu dia ou pensamentos.</p>
-            <input type="text" name="notes" placeholder="Hoje foi um dia..." id="inputObs" />
-            <div style="margin-top: 20px;">
+            <p style="color: gray">
+              Escreva sobre seu dia, eventos ou pensamentos que gostaria de registrar.
+            </p>
+            <div>
+              <textarea type="text" name="notes" placeholder="Hoje foi um dia..." id="inputObs"></textarea>
+            </div>
+            
+            <div id="botoes"style="margin-top: 20px;">
               <button type="button" id="buttonCancelar" onclick="window.history.back()">Cancelar</button>
-              <button type="submit" id="buttonSalvarReg" style="background-color: #9810fa; color: white; padding: 12px 25px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold;">
+              <button type="submit" id="buttonSalvarReg">
                 Salvar Registro
               </button>
             </div>
           </div>
         </div>
       </div>
+      <div id="footer">
+  <div class="footer-container">
+    
+    <div class="Logo">
+      <img src="../../static/img/logo.png" class="imgLogo" alt="Logo do Site" />
+      <p class="paragLogo">MOODLY</p>
+    </div>
+
+    <div id="contatos">
+      <p><strong>Fale com a gente</strong></p>
+      <p>moodly@gmail.com</p>
+      <p>(31) XXXX-XXXX</p>
+    </div>
+
+    <div id="social">
+      <p><strong>Redes Sociais</strong></p>
+      <div>
+        <i class="fa-brands fa-square-facebook sociais"></i>
+        <i class="fa-brands fa-square-instagram sociais"></i>
+        <i class="fa-brands fa-square-x-twitter sociais"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="footer-copy">© 2026 | Todos os direitos reservados.</p>
+</div>
     </form>
 
     <script>
