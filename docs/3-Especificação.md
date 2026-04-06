@@ -148,7 +148,7 @@ Eles garantem a qualidade da solução.
 | RNF-02 | O sistema deve possuir interface intuitiva e amigável. | 🔴 ALTA |
 | RNF-03 | O sistema deve ser responsivo para dispositivos móveis e desktops. | 🔴 ALTA |
 | RNF-04 | O sistema deve garantir persistência e integridade dos dados armazenados no banco de dados. | 🔴 ALTA |
-| RNF-05 | O sistema deve implementar autenticação segura de usuários para validação de credenciais. | 🔴 ALTA |
+| RNF-05 | O sistema deve garantir autenticação segura dos usuários, protegendo suas credenciais.| 🔴 ALTA |
 
 ---
 
