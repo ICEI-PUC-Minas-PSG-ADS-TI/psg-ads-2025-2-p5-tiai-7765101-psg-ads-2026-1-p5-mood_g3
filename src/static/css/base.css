@@ -1,189 +1,270 @@
-* {
+html,
+body {
+    width: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f6fb;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .navbar-custom {
-    background: linear-gradient(135deg, #4f46e5, #6366f1, #7c3aed);
-    padding: 14px 0;
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
-
+    background: #E0D4FF;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-.logo-icon {
-    font-size: 24px;
-    margin-right: 8px;
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+    object-fit: cover;
 }
 
 .logo-text {
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 28px;
+    color: #333;
+    font-weight: 800;
     letter-spacing: 0.5px;
-    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
 }
 
 .nav-link {
-    color: white !important;
-    font-weight: 500;
-    margin-left: 22px;
-    position: relative;
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s;
 }
 
-.nav-hover::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 0%;
-    height: 2px;
-    background: white;
-    transition: 0.3s;
-
+.nav-link:hover {
+    color: #9810FA;
 }
 
-.nav-hover:hover::after {
-    width: 100%;
+.header-home-link {
+    color: #9810FA;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 .user-box {
     display: flex;
     align-items: center;
-    margin-left: 25px;
-}
-
-.user-avatar {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    color: white;
-    margin-right: 10px;
-
+    gap: 8px;
 }
 
 .user-name {
-    color: white;
-    font-weight: 500;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .btn-login,
 .btn-logout {
-    background: white;
-    color: #4f46e5;
+    background: #9810FA;
+    color: white;
     font-weight: 600;
-    border-radius: 8px;
-    padding: 6px 16px;
-    margin-left: 20px;
-    transition: 0.3s;
-
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 8px 20px;
+    text-decoration: none;
 }
 
 .btn-login:hover,
 .btn-logout:hover {
-    background: #f3f4ff;
-    transform: translateY(-1px);
-
+    background: #c06fe0;
 }
 
 .main-content {
     flex: 1;
-    padding: 40px 20px;
-
+    padding: 60px 20px;
 }
 
-.footer-custom {
-    background: linear-gradient(135deg, #4f46e5, #6366f1, #7c3aed);
-    color: white;
-    padding: 40px 0;
-    margin-top: auto;
-
+.messages-container {
+    margin-bottom: 24px;
 }
 
-.footer-content {
-    text-align: center;
-
-}
-
-.footer-logo {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 10px;
-
-}
-
-.footer-links {
-    margin-bottom: 20px;
-
-}
-
-.footer-links a {
-    color: white;
-    margin: 0 12px;
-    text-decoration: none;
+.alert {
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 14px;
     font-weight: 500;
-    opacity: 0.9;
-    transition: 0.3s;
-
 }
 
-.footer-links a:hover {
-    opacity: 1;
-    text-decoration: underline;
+.alert-error,
+.alert-danger {
+    background-color: #FEE2E2;
+    color: #991B1B;
+    border: 1px solid #FCA5A5;
+}
+
+/* FOOTER */
+.footer-custom {
+    background: #E0D4FF;
+    padding: 50px 0 30px;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-logo-text {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.icon-footer {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.footer-contact-col {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-heading {
+    font-size: 17px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #111;
+}
+
+.footer-text {
+    color: #333;
+    font-size: 13px;
 
 }
 
 .footer-copy {
-    font-size: 13px;
-    opacity: 0.8;
+    font-size: 12px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: #e09bf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.social-icon img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
 
 }
 
-@media (max-width:992px) {
-
-    .nav-link {
-        margin-left: 0;
-        margin-top: 10px;
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        gap: 16px;
     }
 
-    .user-box {
-        margin-top: 10px;
+    .nav-menu {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
     }
 
-    .btn-login,
-    .btn-logout {
-        margin-top: 10px;
-        margin-left: 0;
+    .nav-actions {
+        width: 100%;
+        justify-content: center;
     }
 
-}
-
-@media (max-width:600px) {
-
-    .logo-text {
-        font-size: 20px;
+    .footer-grid {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
     }
 
-    .user-name {
-        display: none;
+    .footer-col {
+        width: 100%;
     }
 
-    .footer-links a {
-        display: block;
-        margin: 6px 0;
+    .footer-contact-col,
+    .footer-social-col {
+        justify-content: center;
     }
 
+    .contact-wrapper,
+    .social-wrapper {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
 }
