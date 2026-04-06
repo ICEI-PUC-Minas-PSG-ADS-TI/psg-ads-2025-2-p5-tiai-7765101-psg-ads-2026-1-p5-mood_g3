@@ -148,7 +148,7 @@ Eles garantem a qualidade da solução.
 | RNF-02 | O sistema deve possuir interface intuitiva e amigável. | 🔴 ALTA |
 | RNF-03 | O sistema deve ser responsivo para dispositivos móveis e desktops. | 🔴 ALTA |
 | RNF-04 | O sistema deve garantir persistência e integridade dos dados armazenados no banco de dados. | 🔴 ALTA |
-| RNF-05 | O sistema deve garantir autenticação segura dos usuários, protegendo suas credenciais.| 🔴 ALTA |
+| RNF-05 | O sistema deve garantir autenticação segura dos usuários para proteger contra acessos não autorizados. | 🔴 ALTA |
 
 ---
 
@@ -176,7 +176,7 @@ Elas podem envolver:
 |R-02| O sistema deve ser desenvolvido como aplicação web. |
 |R-03| O sistema deve respeitar as diretrizes da LGPD no tratamento de dados dos usuários. |
 |R-04| O sistema deve ser desenvolvido sem depender de serviços externos pagos para seu funcionamento. |
-|R-05| O sistema deve ser desenvolvido em módulos front-end e back-end |
+|R-05| O sistema deve ser desenvolvido em módulos front-end e back-end. |
 
 ---
 
