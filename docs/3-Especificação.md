@@ -174,10 +174,9 @@ Elas podem envolver:
 |-----|-----------|
 |R-01| O projeto deve ser desenvolvido até o final do semestre. |
 |R-02| O sistema deve ser desenvolvido como aplicação web. |
-|R-03| O sistema deve utilizar banco de dados relacional definido pela equipe. |
-|R-04| O desenvolvimento do projeto deve respeitar os prazos estabelecidos para cada etapa.	|
-|R-05| O sistema deve passar por testes de validação antes de cada entrega parcial. |
-|R-06| O projeto deve ser revisado pela equipe antes da entrega final. |
+|R-03| O sistema deve respeitar as diretrizes da LGPD no tratamento de dados dos usuários. |
+|R-04| O sistema deve ser desenvolvido sem depender de serviços externos pagos para seu funcionamento. |
+|R-05| O sistema deve ser desenvolvido em módulos front-end e back-end |
 
 ---
 
