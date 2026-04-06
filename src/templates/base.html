@@ -3,121 +3,57 @@
 <html lang="pt-br">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>{% block title %}Moodly{% endblock %}</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="{% static 'css/base.css' %}">
-
   {% block extra_css %}{% endblock %}
-
 </head>
-
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <header class="navbar-custom">
+    <div class="container navbar-container">
 
-    <div class="container">
-
-      <a class="navbar-brand d-flex align-items-center" href="{% url 'core:dashboard' %}">
-       
-        <span class="logo-text">Moodly</span>
+      <a class="navbar-brand" href="{% url 'core:index' %}">
+        <img src="{% static 'img/logo.png' %}" alt="Moodly" class="nav-logo">
+        <span class="logo-text">MOODLY</span>
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="mainNav">
-
-        <ul class="navbar-nav ms-auto align-items-center">
-
-          <li class="nav-item">
-            <a class="nav-link nav-hover" href="{% url 'core:dashboard' %}">
-              Home
-            </a>
-          </li>
-
-          {% if user.is_authenticated %}
-
-          <li class="nav-item">
-            <a class="nav-link nav-hover" href="{% url 'core:dashboard' %}">
-              Dashboard
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link nav-hover" href="{% url 'core:create_entry' %}">
-              Novo Registro
-            </a>
-          </li>
-
-          {% endif %}
-
-          <li class="nav-item">
-            <a class="nav-link nav-hover" href="#">
-              Link 2
-            </a>
-          </li>
-
-          {% if user.is_authenticated %}
-
-          <li class="nav-item user-box">
-
-            <div class="user-avatar">
-              {{ user.username|first|upper }}
-            </div>
-
-            <span class="user-name">
-              {{ user.username }}
-            </span>
-
-          </li>
-
-          <li class="nav-item">
-            <a class="btn btn-logout" href="{% url 'logout' %}">
-              Sair
-            </a>
-          </li>
-
-          {% else %}
-
-          <li class="nav-item">
-            <a class="nav-link nav-hover" href="#">
-              Sobre
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="btn btn-login" href="{% url 'login' %}">
-              Login
-            </a>
-          </li>
-
-          {% endif %}
-
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a class="nav-link header-home-link" href="{% url 'core:index' %}">Home</a></li>
+          <li><a class="nav-link" href="{% url 'core:index' %}#about">Quem Somos</a></li>
         </ul>
 
-      </div>
+        <div class="nav-actions">
+          {% if user.is_authenticated %}
+          <div class="user-box">
+            <div class="user-avatar">{{ user.username|first|upper }}</div>
+            <span class="user-name">{{ user.username }}</span>
+          </div>
+          <a class="btn btn-logout" href="{% url 'logout' %}">Sair</a>
+          {% else %}
+          <a class="btn btn-login" href="{% url 'login' %}">Login</a>
+          {% endif %}
+        </div>
+      </nav>
 
     </div>
-
-  </nav>
+  </header>
 
   <main class="container main-content">
 
     {% if messages %}
-    {% for message in messages %}
-    <div class="alert alert-{{ message.tags }} alert-dismissible fade show mt-3" role="alert">
-      {{ message }}
-      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <div class="messages-container">
+      {% for message in messages %}
+      <div class="alert alert-{{ message.tags }}">
+        {{ message }}
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
     {% endif %}
 
     {% block content %}
@@ -126,28 +62,49 @@
   </main>
 
   <footer class="footer-custom">
+    <div class="container">
+      <div class="footer-grid">
 
-    <div class="container footer-content">
+        <div class="footer-col footer-brand-col">
+          <div class="footer-brand">
+            <img src="{% static 'img/logo.png' %}" alt="Moodly" class="icon-footer">
+            <span class="footer-logo-text">MOODLY</span>
+          </div>
+        </div>
 
-      <div class="footer-logo">
-        <img src="{% static 'img/logo.png' %}" alt="Moodly" class="icon-footer" style="width: 90px">
+        <div class="footer-col footer-contact-col">
+          <div class="contact-wrapper">
+            <h5 class="footer-heading">Fale com a gente</h5>
+            <p class="footer-text">moodly@gmail.com</p>
+            <p class="footer-text">(31) XXXX-XXXX</p>
+          </div>
+        </div>
+
+        <div class="footer-col footer-social-col">
+          <div class="social-wrapper">
+            <h5 class="footer-heading">Redes Sociais</h5>
+            <div class="social-icons">
+
+              <a href="https://www.facebook.com/" class="social-icon" aria-label="Facebook">
+                <img src="{% static 'img/facebook.png' %}" alt="icon-fb" width="45" height="45">
+              </a>
+
+              <a href="https://www.instagram.com/" class="social-icon" aria-label="Instagram">
+                <img src="{% static 'img/instagram.png' %}" alt="icon-insta" width="45" height="45">
+              </a>
+
+              <a href="https://x.com/" class="social-icon" aria-label="Twitter">
+                <img src="{% static 'img/twitter.png' %}" alt="icon-x" width="45" height="45">
+              </a>
+
+            </div>
+          </div>
+        </div>
+
       </div>
-
-      <div class="footer-links">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Contato</a>
-      </div>
-
-      <div class="footer-copy">
-        © 2026 Moodly • Todos os direitos reservados
-      </div>
-
+      <div class="footer-copy">© 2026 Moodly | Todos os direitos reservados</div>
     </div>
-
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

@@ -1,62 +1,102 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Login – Moodly{% endblock %}
+{% block title %} Login {% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/style.css' %}">
 {% endblock %}
 
 {% block content %}
-
-<div class="login-container">
-
-  <div class="login-left">
-    <img src="{% static 'img/logo.png' %}" alt="Moodly" class="login-logo">
-  </div>
-
-  <div class="login-right">
-
-    <div class="login-card">
-
-      <div class="login-title">Moodly</div>
-
-      <div class="login-subtitle">
-        Cuidar da mente também é cuidar da saúde
-      </div>
-
-      <form method="post" action="{% url 'login' %}">
-        {% csrf_token %}
-
-        {% if form.errors %}
-        <div class="alert alert-danger">
-          Usuário ou senha inválidos. Tente novamente.
-        </div>
-        {% endif %}
-
-        <div class="mb-3">
-          <input type="text" name="username" class="form-control" placeholder="E-mail" required>
-        </div>
-
-        <div class="mb-3">
-          <input type="password" name="password" class="form-control" placeholder="Senha" required>
-        </div>
-
-        <button type="submit" class="login-btn">
-          Entrar
-        </button>
-
-      </form>
-
-      <div class="text-center mt-3">
-        Não tem conta?
-        <a href="#">Criar Conta</a> <!-- Wip -->
-      </div>
-
+<div class="moodly-wrapper">
+    <div class="moodly-header">
+        <img src="{% static 'img/hearts.png' %}" alt="heart-login"  class="heart-icon">
+        <h1>Bem-vindo ao MOODLY</h1>
+        <p>Acompanhe seu bem-estar emocional diariamente</p>
     </div>
 
-  </div>
+    <div class="toggle-container">
+        <button class="toggle-btn {% if not show_register %}active{% endif %}" id="btn-login" onclick="switchTab('login')">Login</button>
+        <button class="toggle-btn {% if show_register %}active{% endif %}" id="btn-cadastro" onclick="switchTab('cadastro')">Cadastro</button>
+    </div>
 
+    <div class="form-card">
+
+        <form id="form-login" method="post" action="{% url 'login' %}" {% if show_register %}style="display: none;"{% endif %}>
+            {% csrf_token %}
+            {% if form.errors and not show_register %}
+            <div class="alert-danger">Usuário ou senha inválidos. Tente novamente.</div>
+            {% endif %}
+
+            <h2 class="form-title">Bem-vindo de volta</h2>
+            <p class="form-subtitle">Entre com suas credenciais para acessar sua conta.</p>
+
+            <div class="form-group">
+                <label>E-mail</label>
+                <input type="email" name="username" placeholder="contato@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label>Senha</label>
+                <input type="password" name="password" placeholder="********" required>
+            </div>
+
+            <div class="forgot-password">
+                Esqueceu sua senha? <a href="#">Clique aqui</a>
+            </div>
+
+            <button type="submit" class="submit-btn">Entrar</button>
+        </form>
+
+        <form id="form-cadastro" method="post" action="{% url 'register' %}" {% if not show_register %}style="display: none;"{% endif %}>
+            {% csrf_token %}
+
+            {% if register_form.non_field_errors %}
+            <div class="alert-danger">
+                {% for error in register_form.non_field_errors %}
+                    <p>{{ error }}</p>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            <h2 class="form-title">Inscreva-se</h2>
+            <p class="form-subtitle">Preencha os campos abaixo para criar sua conta.</p>
+
+            <div class="form-group">
+                <label>Nome completo</label>
+                <input type="text" name="name" placeholder="Seu nome" value="{{ register_form.name.value|default:'' }}" required>
+                {% if register_form.name.errors %}
+                <small class="text-danger">{{ register_form.name.errors.0 }}</small>
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                <label>E-mail</label>
+                <input type="email" name="email" placeholder="contato@email.com" value="{{ register_form.email.value|default:'' }}" required>
+                {% if register_form.email.errors %}
+                <small class="text-danger">{{ register_form.email.errors.0 }}</small>
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                <label>Senha</label>
+                <input type="password" name="password" placeholder="Mínimo 6 caracteres" required>
+                {% if register_form.password.errors %}
+                <small class="text-danger">{{ register_form.password.errors.0 }}</small>
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                <label>Confirmar senha</label>
+                <input type="password" name="confirm_password" placeholder="Digite a senha novamente" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Cadastrar</button>
+        </form>
+
+    </div>
 </div>
+
+<script src="{% static 'js/login.js' %}"></script>
 
 {% endblock %}
