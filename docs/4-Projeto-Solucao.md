@@ -79,7 +79,7 @@ Representação do Wireframe:
 
 <img src="images/Login.png" width="80%">
 
-**Descrição:** Permite que o usuário acesse o sistema por meio do preenchimento dos campos de e-mail e senha, com validação dos dados inseridos e opção de envio das credenciais para autenticação. Após o login bem-sucedido, o usuário é direcionado para a tela inicial. 
+**Descrição:** Permite que o usuário acesse ao sistema por meio do preenchimento dos campos de e-mail e senha, com validação dos dados inseridos e envio das credenciais para autenticação.
 
 ### 📌 Tela de Cadastro (RF-01)
 
@@ -99,7 +99,7 @@ Representação do Wireframe:
 
 <img src="images/Registro_Humor.png" width="80%">
 
-**Descrição:** A interface permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-03.
+**Descrição:** A tela de registro de humor permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-03.
 
 ---
 
