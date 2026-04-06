@@ -8,7 +8,7 @@
 
 <p align="justify"> O projeto consiste no desenvolvimento de um sistema web de registro e análise de humor, com o objetivo de auxiliar usuários no acompanhamento de seu estado emocional no dia a dia. A plataforma permitirá que os usuários registrem suas emoções por meio de um diário de humor, acompanhem o histórico dos registros e visualizem análises e padrões emocionais em um dashboard, contribuindo para o autoconhecimento e para a identificação de possíveis sinais de estresse, ansiedade ou outras questões relacionadas ao bem-estar emocional.</p>
 
-<p align="justify">Além de apoiar os usuários no monitoramento de suas emoções, o sistema também poderá servir como ferramenta de apoio para profissionais da saúde, como psicólogos e terapeutas, permitindo, mediante autorização do usuário, o acompanhamento do histórico emocional registrado na plataforma. Dessa forma, o projeto busca contribuir para a promoção da saúde mental, incentivando práticas de cuidado emocional e auxiliando no acompanhamento profissional.</p>
+<p align="justify"> Além de apoiar os usuários no monitoramento de suas emoções, o sistema também poderá, em versões futuras, servir como ferramenta de apoio para profissionais da saúde, como psicólogos e terapeutas, permitindo, mediante autorização do usuário, o acompanhamento do histórico emocional registrado na plataforma. Dessa forma, o projeto busca contribuir para a promoção da saúde mental e incentivar práticas de cuidado emocional.</p>
 
 ODS Alinhados:
 * ODS 3 - Saúde e Bem-Estar
@@ -26,7 +26,9 @@ ODS Alinhados:
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+As instruções de utilização do sistema estão disponíveis no Guia de Onboarding que apresenta os passos para a configuração do ambiente e a execução da aplicação. 
+
+<li><a href="docs/8-Guia-Onboarding.md"> Guia Onboarding</a></li>
 
 # Documentação
 

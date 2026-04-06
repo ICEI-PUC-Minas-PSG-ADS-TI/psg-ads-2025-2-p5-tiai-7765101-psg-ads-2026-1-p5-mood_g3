@@ -71,6 +71,16 @@ Representação do Wireframe:
 
 <img src="images/HomePage.png" width="80%">
 
+### 📌 Tela de Cadastro (RF-01)
+
+**História associada:** Como usuário, eu quero criar uma conta para que eu possa acessar o sistema de forma segura.
+
+Representação do Wireframe:
+
+<img src="images/Cadastro.png" width="80%">
+
+**Descrição:** Possibilita ao usuário criar uma nova conta informando nome, e-mail e senha. Após o cadastro realizado com sucesso, o usuário pode acessar o sistema utilizando suas credenciais.
+
 ### 📌 Tela de Login (RF-02)
 
 **História associada:** Como usuário, eu quero realizar login com meu e-mail e senha para que eu possa acessar meus registros de humor.
@@ -79,17 +89,7 @@ Representação do Wireframe:
 
 <img src="images/Login.png" width="80%">
 
-**Descrição:** Permite que o usuário acesse o sistema por meio do preenchimento dos campos de e-mail e senha, com validação dos dados inseridos e opção de envio das credenciais para autenticação. Após o login bem-sucedido, o usuário é direcionado para a tela inicial. 
-
-### 📌 Tela de Cadastro (RF-01)
-
-**História associada:** Como usuário, eu quero criar uma conta para que eu possa acessar o sistema de forma segura.
-
-**Descrição:** Possibilita ao usuário criar uma nova conta informando nome, e-mail e senha. Após o cadastro realizado com sucesso, o usuário pode acessar o sistema utilizando suas credenciais.
-
-Representação do Wireframe:
-
-<img src="images/Cadastro.png" width="80%">
+**Descrição:** Permite que o usuário acesse ao sistema por meio do preenchimento dos campos de e-mail e senha, com validação dos dados inseridos e envio das credenciais para autenticação.
 
 ### 📌 Tela de Registro de Humor Diário (RF-03)
 
@@ -99,7 +99,7 @@ Representação do Wireframe:
 
 <img src="images/Registro_Humor.png" width="80%">
 
-**Descrição:** A interface permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-03.
+**Descrição:** A tela de registro de humor permite registrar o humor diário com validação no backend e persistência dos dados no banco, contemplando o RF-03.
 
 ---
 

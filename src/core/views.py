@@ -44,6 +44,8 @@ def dashboard_view(request):
 
 
 @login_required
+@login_required
+@login_required
 def create_entry_view(request):
     if request.method == "POST":
         form = MoodEntryForm(request.POST)
@@ -53,5 +55,5 @@ def create_entry_view(request):
     else:
         form = MoodEntryForm()
 
-    return render(request, "core/create_entry.html", {"form": form})
-
+    # O return deve ter 4 espaços (ou um TAB) de recuo para estar DENTRO da função
+    return render(request, "registro_humor/registro_humor.html", {"form": form})

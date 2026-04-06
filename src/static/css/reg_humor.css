@@ -6,15 +6,15 @@ body {
 }
 
 #main {
-  height: 100%;
   width: 100%;
+  max-width: 1280px;
   padding: 50px 60px;
+  margin: 0 auto;
 }
 
 #header {
-  width: 100%;
   height: 8em;
-  padding: 15px;
+  padding: 10px 50px;
   background-color: #dcccff;
   display: flex;
   align-items: center;
@@ -25,7 +25,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
 }
 
 .imgLogo {
@@ -102,7 +101,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   align-items: center;
-  width: 95%;
+  width: 100%;
+  border: 3px #00000008 solid;
+  box-shadow: 0px 0px 5px 0px #000000ab;
 }
 
 .buttonsHumors {
@@ -111,6 +112,9 @@ body {
   background: white;
   border-radius: 18px;
   border: 3px solid #eadfdf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .buttonsHumors:hover {
@@ -118,20 +122,25 @@ body {
   color: white;
 }
 
+.iconsHumors {
+  font-size: 28px;
+  color: #c606da;
+  padding: 8px;
+}
 #inputData {
   margin-left: 55px;
 }
 
 #divIntensidade {
-  width: 500px;
+  width: 100%;
   font-family: Arial, sans-serif;
 }
 
 input[type="range"] {
-  width: 100%;
+  width: 60%;
   appearance: none;
-  height: 6px;
-  background: #ddd;
+  height: 10px;
+  background: #dfdede;
   border-radius: 5px;
   outline: none;
 }
@@ -141,7 +150,8 @@ input[type="range"]::-webkit-slider-thumb {
   appearance: none;
   width: 14px;
   height: 14px;
-  background: #4a6cf7;
+  background: white;
+  border: 2px black solid;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -154,30 +164,39 @@ input[type="range"]::-moz-range-thumb {
   cursor: pointer;
 }
 
+#divRadius {
+  margin-left: 80px;
+}
 .valores {
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
   font-size: 14px;
+  width: 60%;
+  font-weight: bold;
 }
 
 #valorAtual {
-  color: #4a6cf7;
+  color: #8106da;
   font-weight: bold;
 }
 
 #inputObs {
-  width: 1000px;
-  height: 120px;
+  width: 95%;
+  height: 110px;
   border: 2px #9810fa solid;
   border-radius: 12px;
+  padding: 20px;
 }
 
 .tags {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 20px;
   gap: 10px;
-  max-width: 600px;
+  border: 2px #9810fa solid;
+  border-radius: 12px;
+  width: 95%;
 }
 
 /* esconde checkbox */
@@ -188,11 +207,13 @@ input[type="range"]::-moz-range-thumb {
 /* estilo padrão */
 .tags label {
   padding: 8px 14px;
-  border-radius: 20px;
-  background: #f0f0f0;
+  border-radius: 8px;
+  background: white;
   cursor: pointer;
   transition: 0.2s;
   font-size: 14px;
+  border: 1px solid #eadfdf;
+  font-weight: bold;
 }
 
 /* hover */
@@ -206,20 +227,70 @@ input[type="range"]::-moz-range-thumb {
   color: white;
 }
 
+#botoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 99%;
+}
+
+#botoes button {
+  flex: 1;
+  height: 35px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#buttonSalvarReg {
+  background-color: #9810fa;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 #footer {
-  width: 100%;
-  height: 8em;
-  padding: 20px;
+  padding: 10px 50px;
   background-color: #dcccff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container > div {
+  flex: 1;
+}
+
+.Logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
 }
 
 #contatos {
-  width: 100%;
+  text-align: center;
 }
 
 #social {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sociais {
+  font-size: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
 }

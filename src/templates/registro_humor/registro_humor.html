@@ -3,200 +3,178 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/3f66e61998.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/3f66e61998.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../static/css/reg_humor.css" />
     <title>Registro de Humor</title>
   </head>
   <body>
-    <div id="header">
-      <div class="Logo">
-        <img
-          src="../../static/img/logo.png"
-          class="imgLogo"
-          alt="Logo do Site"
-        />
-        <p class="paragLogo">MOODLY</p>
-      </div>
-      <div id="header_config">
-        <div id="hUser">
-          <i class="fa-regular fa-user" style="color: #9810fa"></i>
-          <p>Usuario</p>
-        </div>
-        <div id="divSair">
-          <button id="buttonSair">
-            <i
-              class="fa-solid fa-arrow-right-from-bracket"
-              style="padding: 0px 9px"
-            ></i
-            >Sair
-          </button>
-        </div>
-      </div>
-    </div>
-    <div id="main">
-      <div id="divbuttonPages">
-        <button class="buttonPages">Dashboard</button>
-        <button class="buttonPages" id="buttonRegHumor">
-          <i class="fa-solid fa-circle-plus" style="padding-right: 5px"></i>
-          Registrar Humor
-        </button>
-        <button class="buttonPages">
-          <i
-            class="fa-solid fa-clock-rotate-left"
-            style="padding-right: 5px"
-          ></i
-          >Histórico
-        </button>
-      </div>
-      <div>
-        <h1>Registro de Humor Diário</h1>
-        <div>
-          <h3 style="font-weight: bold">Como você está se sentindo hoje?</h3>
-          <div>
-            <p style="color: gray; margin-left: 20px">
-              1. Selecione o humor que melhor representa seu estado emocional
-              agora.
-            </p>
-            <div id="divHumors">
-              <button class="buttonsHumors" id="buttonMtFeliz">
-                Muito Feliz
-              </button>
-              <button class="buttonsHumors" id="buttonFeliz">Feliz</button>
-              <button class="buttonsHumors" id="buttonNeutro">Neutro</button>
-              <button class="buttonsHumors" id="buttonTriste">Triste</button>
-              <button class="buttonsHumors" id="buttonMtTriste">
-                Muito Triste
-              </button>
-              <button class="buttonsHumors" id="buttonCansado">Cansado</button>
-              <button class="buttonsHumors" id="buttonAnsioso">Ansioso</button>
-              <button class="buttonsHumors" id="buttonAliviado">
-                Aliviado
-              </button>
-            </div>
-          </div>
-          <div>
-            <p style="color: gray; margin-left: 20px">
-              2. Selecione a data e o horário do registro.
-            </p>
-            <input type="date" name="" id="inputData" />
-            <input type="time" name="" id="inputHoras" />
-          </div>
-        </div>
-        <div id="divIntensidade">
-          <h2>Intensidade</h2>
-          <div>
-            <p style="color: gray">
-              Como você avalia a intensidade desse humor? (Para 1 = Leve e 5 =
-              Forte)
-            </p>
-            <div>
-              <input
-                type="range"
-                name=""
-                id="inputRange"
-                min="1"
-                max="5"
-                value="3"
-              />
-              <div class="valores">
-                <span>1</span>
-                <span id="valorAtual">3</span>
-                <span>5</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="divAtvDia">
-          <h2>Atividades do Dia</h2>
-          <div>
-            <p style="color: gray">
-              Selecione as atividades que você realizou ou que influenciaram seu
-              humor.
-            </p>
-            <div class="tags">
-              <input type="checkbox" id="t1" />
-              <label for="t1">Trabalho/Estudo</label>
-
-              <input type="checkbox" id="t2" />
-              <label for="t2">Exercício Físico</label>
-
-              <input type="checkbox" id="t3" />
-              <label for="t3">Família</label>
-
-              <input type="checkbox" id="t4" />
-              <label for="t4">Amigos</label>
-
-              <input type="checkbox" id="t5" />
-              <label for="t5">Hobbies</label>
-
-              <input type="checkbox" id="t6" />
-              <label for="t6">Descanso</label>
-
-              <input type="checkbox" id="t7" />
-              <label for="t7">Alimentação</label>
-
-              <input type="checkbox" id="t8" />
-              <label for="t8">Sono</label>
-
-              <input type="checkbox" id="t9" />
-              <label for="t9">Meditação</label>
-
-              <input type="checkbox" id="t10" />
-              <label for="t10">Leitura</label>
-
-              <input type="checkbox" id="t11" />
-              <label for="t11">Música</label>
-
-              <input type="checkbox" id="t12" />
-              <label for="t12">Natureza</label>
-
-              <input type="checkbox" id="t13" />
-              <label for="t13">Viagem</label>
-
-              <input type="checkbox" id="t14" />
-              <label for="t14">Compras</label>
-
-              <input type="checkbox" id="t15" />
-              <label for="t15">Outro</label>
-            </div>
-          </div>
-        </div>
-        <div id="divObservacoes">
-          <div>
-            <h2>Observações (Opcional)</h2>
-            <p style="color: gray">
-              Escreva sobre seu dia, eventos ou pensamentos que gostaria de
-              registrar.
-            </p>
-            <div>
-              <input
-                type="text"
-                placeholder="Hoje foi um dia..."
-                id="inputObs"
-              />
-              <div>
-                <button id="buttonCancelar">Cancelar</button>
-                <button id="buttonSalvarReg">Salvar Registro</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- <div id="footer">
+    <form method="POST">
+      {% csrf_token %}
+      
+      <div id="header">
         <div class="Logo">
           <img src="../../static/img/logo.png" class="imgLogo" alt="Logo do Site" />
           <p class="paragLogo">MOODLY</p>
         </div>
-        <div id="contatos">
-            <p>Fale com a gente!</p>
-            <p>moodly@gmail.com</p>
-            <p>(31) XXXX-XXXX</p>
+        <div id="header_config">
+          <div id="hUser">
+            <i class="fa-regular fa-user" style="color: #9810fa"></i>
+            <p>{{ request.user.username|default:"Usuário" }}</p>
+          </div>
+          <div id="divSair">
+            <button type="button" id="buttonSair">
+              <i class="fa-solid fa-arrow-right-from-bracket" style="padding: 0px 9px"></i>Sair
+            </button>
+          </div>
         </div>
-        <div id="social"></div>
-      </div> -->
+      </div>
+
+      <div id="main">
+        <div id="divbuttonPages">
+          <button type="button" class="buttonPages">Dashboard</button>
+          <button type="button" class="buttonPages" id="buttonRegHumor">
+            <i class="fa-solid fa-circle-plus" style="padding-right: 5px"></i> Registrar Humor
+          </button>
+          <button type="button" class="buttonPages">
+            <i class="fa-solid fa-clock-rotate-left" style="padding-right: 5px"></i> Histórico
+          </button>
+        </div>
+
+        <div>
+          <h1>Registro de Humor Diário</h1>
+          
+          <div>
+            <h3 style="font-weight: bold">Como você está se sentindo hoje?</h3>
+            <p style="color: gray; margin-left: 20px">1. Selecione o humor que melhor representa seu estado emocional.</p>
+            
+            <input type="hidden" name="emotion" id="selected_emotion" required>
+
+            <div id="divHumors">
+              <button type="button" class="buttonsHumors" onclick="setEmotion('MUITO_FELIZ', this)">
+                <i class="fa-regular fa-heart iconsHumors" style="color: #c606da;"></i>
+                Muito Feliz
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('FELIZ', this)">
+                <i class="fa-regular fa-face-smile iconsHumors" style="color: rgb(83, 225, 68);"></i>
+                Feliz
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('NEUTRO', this)">
+                <i class="fa-regular fa-face-meh iconsHumors" style="color: rgb(247, 208, 70);"></i>
+                Neutro
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('TRISTE', this)">
+                <i class="fa-regular fa-face-frown iconsHumors" style="color: rgb(16, 91, 244);"></i>
+                Triste
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('MUITO_TRISTE', this)">
+                <i class="fa-regular fa-face-angry iconsHumors" style="color: rgb(246, 47, 47);"></i>
+                Muito Triste
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('CANSADO', this)">
+                <i class="fa-solid fa-mug-hot iconsHumors" style="color: rgb(238, 133, 6);"></i>
+                Cansado
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('ANSIOSO', this)">
+                <i class="fa-solid fa-bolt iconsHumors" style="color: rgb(127, 59, 241);"></i>
+                Ansioso
+              </button>
+              <button type="button" class="buttonsHumors" onclick="setEmotion('ALIVIADO', this)">
+                <i class="fa-regular fa-face-grin-beam iconsHumors" style="color: rgb(0, 222, 248);"></i>
+                Aliviado
+              </button>
+            </div>
+          </div>
+
+          <div id="divIntensidade">
+            <h2>Intensidade</h2>
+            <p style="color: gray">Como você avalia a intensidade desse humor? (1 = Leve e 5 = Forte)</p>
+            <div id="divRadius">
+              <input type="range" name="intensity_level" id="inputRange" min="1" max="5" value="3" oninput="document.getElementById('valorAtual').innerText = this.value" />
+             
+              <div class="valores">
+                <span>1</span> <span id="valorAtual">3</span> <span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div id="divAtvDia">
+            <h2>Atividades do Dia</h2>
+            <p style="color: gray">
+              Selecione as atividades que você realizou ou que influcienciaram seu humor hoje.
+            </p>
+            <div class="tags">
+              <input type="checkbox" name="activities" value="trabalho" id="t1" /> <label for="t1">Trabalho/Estudo</label>
+              <input type="checkbox" name="activities" value="exercicio" id="t2" /> <label for="t2">Exercício Físico</label>
+              <input type="checkbox" name="activities" value="familia" id="t3" /> <label for="t3">Família</label>
+              <input type="checkbox" name="activities" value="amigos" id="t4" /> <label for="t4">Amigos</label>
+              <input type="checkbox" name="activities" value="hobbies" id="t5" /> <label for="t5">Hobbies</label>
+              <input type="checkbox" name="activities" value="descanso" id="t6" /> <label for="t6">Descanso</label>
+              <input type="checkbox" name="activities" value="alimentacao" id="t7" /> <label for="t7">Alimentação</label>
+              <input type="checkbox" name="activities" value="sono" id="t8" /> <label for="t8">Sono</label>
+              <input type="checkbox" name="activities" value="meditacao" id="t9" /> <label for="t9">Meditação</label>
+              <input type="checkbox" name="activities" value="leitura" id="t10" /> <label for="t10">Leitura</label>
+              <input type="checkbox" name="activities" value="musica" id="t11" /> <label for="t11">Música</label>
+              <input type="checkbox" name="activities" value="natureza" id="t12" /> <label for="t12">Natureza</label>
+              <input type="checkbox" name="activities" value="viagem" id="t13" /> <label for="t13">Viagem</label>
+              <input type="checkbox" name="activities" value="compras" id="t14" /> <label for="t14">Compras</label>
+              <input type="checkbox" name="activities" value="outro" id="t15" /> <label for="t15">Outro</label>
+            </div>
+          </div>
+
+          <div id="divObservacoes">
+            <h2>Observações (Opcional)</h2>
+            <p style="color: gray">
+              Escreva sobre seu dia, eventos ou pensamentos que gostaria de registrar.
+            </p>
+            <div>
+              <textarea type="text" name="notes" placeholder="Hoje foi um dia..." id="inputObs"></textarea>
+            </div>
+            
+            <div id="botoes"style="margin-top: 20px;">
+              <button type="button" id="buttonCancelar" onclick="window.history.back()">Cancelar</button>
+              <button type="submit" id="buttonSalvarReg">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+  <div class="footer-container">
+    
+    <div class="Logo">
+      <img src="../../static/img/logo.png" class="imgLogo" alt="Logo do Site" />
+      <p class="paragLogo">MOODLY</p>
+    </div>
+
+    <div id="contatos">
+      <p><strong>Fale com a gente</strong></p>
+      <p>moodly@gmail.com</p>
+      <p>(31) XXXX-XXXX</p>
+    </div>
+
+    <div id="social">
+      <p><strong>Redes Sociais</strong></p>
+      <div>
+        <i class="fa-brands fa-square-facebook sociais"></i>
+        <i class="fa-brands fa-square-instagram sociais"></i>
+        <i class="fa-brands fa-square-x-twitter sociais"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="footer-copy">© 2026 | Todos os direitos reservados.</p>
+</div>
+    </form>
+
+    <script>
+      function setEmotion(emotionValue, buttonElement) {
+        document.getElementById('selected_emotion').value = emotionValue;
+        const buttons = document.querySelectorAll('.buttonsHumors');
+        buttons.forEach(btn => btn.style.backgroundColor = ""); // Reseta cor
+        buttonElement.style.backgroundColor = "#e0b3ff"; // Destaque visual
+      }
+    </script>
   </body>
 </html>
