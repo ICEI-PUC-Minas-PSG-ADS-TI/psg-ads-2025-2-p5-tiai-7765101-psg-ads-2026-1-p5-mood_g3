@@ -28,7 +28,7 @@ ODS Alinhados:
 
 As instruções de utilização do sistema estão disponíveis no Guia Onboarding que apresenta os passos para a configuração do ambiente e a execução da aplicação. 
 
-* <li><a href="docs/8-Guia-Onboarding.md"> Guia Onboarding</a></li>
+<li><a href="docs/8-Guia-Onboarding.md"> Guia Onboarding</a></li>
 
 # Documentação
 
