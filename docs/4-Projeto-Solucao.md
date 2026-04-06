@@ -71,16 +71,6 @@ Representação do Wireframe:
 
 <img src="images/HomePage.png" width="80%">
 
-### 📌 Tela de Login (RF-02)
-
-**História associada:** Como usuário, eu quero realizar login com meu e-mail e senha para que eu possa acessar meus registros de humor.
-
-Representação do Wireframe:
-
-<img src="images/Login.png" width="80%">
-
-**Descrição:** Permite que o usuário acesse ao sistema por meio do preenchimento dos campos de e-mail e senha, com validação dos dados inseridos e envio das credenciais para autenticação.
-
 ### 📌 Tela de Cadastro (RF-01)
 
 **História associada:** Como usuário, eu quero criar uma conta para que eu possa acessar o sistema de forma segura.
@@ -90,6 +80,16 @@ Representação do Wireframe:
 Representação do Wireframe:
 
 <img src="images/Cadastro.png" width="80%">
+
+### 📌 Tela de Login (RF-02)
+
+**História associada:** Como usuário, eu quero realizar login com meu e-mail e senha para que eu possa acessar meus registros de humor.
+
+Representação do Wireframe:
+
+<img src="images/Login.png" width="80%">
+
+**Descrição:** Permite que o usuário acesse ao sistema por meio do preenchimento dos campos de e-mail e senha, com validação dos dados inseridos e envio das credenciais para autenticação.
 
 ### 📌 Tela de Registro de Humor Diário (RF-03)
 
