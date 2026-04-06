@@ -75,11 +75,11 @@ Representação do Wireframe:
 
 **História associada:** Como usuário, eu quero criar uma conta para que eu possa acessar o sistema de forma segura.
 
-**Descrição:** Possibilita ao usuário criar uma nova conta informando nome, e-mail e senha. Após o cadastro realizado com sucesso, o usuário pode acessar o sistema utilizando suas credenciais.
-
 Representação do Wireframe:
 
 <img src="images/Cadastro.png" width="80%">
+
+**Descrição:** Possibilita ao usuário criar uma nova conta informando nome, e-mail e senha. Após o cadastro realizado com sucesso, o usuário pode acessar o sistema utilizando suas credenciais.
 
 ### 📌 Tela de Login (RF-02)
 
