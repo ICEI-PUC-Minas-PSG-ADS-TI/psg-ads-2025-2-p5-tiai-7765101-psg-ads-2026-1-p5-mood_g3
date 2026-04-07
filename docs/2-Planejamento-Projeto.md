@@ -150,7 +150,7 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 | Camila Machado Pires Maia      | Facilitador Ágil     | Documentação Técnica (Especificacao.md), Wireframes e Tela Cadastro (front/back) | 19/03  | 06/04 | ✔️     |
 | Diego Rodrigues da Cruz        | Gerente de Qualidade | Desenvolvimento da Tela Registro de Humor (Front)                                   | 19/03  | 06/04 | 📝     |
 | Francisco Henrique de Moura    | Arquiteto de Dados   |      Integração do banco de dados PostgreSQL com Django e configuração do ambiente Docker | 19/03  | 06/04 | ✔️   |
-| Fredson Marinho Almeida Borges | Tech Lead            |                                                                                     | 19/03  | 06/04 | ❌     |
+| Fredson Marinho Almeida Borges | Tech Lead            |  Dockerização do PostgreSQL, implementação do backend (Cadastro/Humor) com persistência real e realização de testes de integração e ponta a ponta (E2E).     | 19/03  | 06/04 | ✔️     |
 
 ---
 
