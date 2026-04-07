@@ -8,11 +8,10 @@ from .forms import MoodEntryForm, UserRegistrationForm
 from .services import MoodEntryService
 
 def index(request):
-    # Se o usuário já estiver logado, manda direto pro dashboard
     if request.user.is_authenticated:
         return redirect("core:dashboard")
     
-    return render(request, "core/index.html")
+    return render(request, "registration/login.html")
 
 
 def register_view(request):
@@ -42,9 +41,6 @@ def dashboard_view(request):
     entries = MoodEntryService.get_user_entries(request.user)
     return render(request, "core/dashboard.html", {"entries": entries})
 
-
-@login_required
-@login_required
 @login_required
 def create_entry_view(request):
     if request.method == "POST":
@@ -55,5 +51,4 @@ def create_entry_view(request):
     else:
         form = MoodEntryForm()
 
-    # O return deve ter 4 espaços (ou um TAB) de recuo para estar DENTRO da função
-    return render(request, "registro_humor/registro_humor.html", {"form": form})
+    return render(request, "core/create_entry.html", {"form": form})
