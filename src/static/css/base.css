@@ -6,6 +6,13 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
