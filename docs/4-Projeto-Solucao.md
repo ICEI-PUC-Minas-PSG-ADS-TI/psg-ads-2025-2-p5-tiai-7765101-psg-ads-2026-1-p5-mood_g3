@@ -7,8 +7,6 @@ Diagrama macro que demonstra como os componentes do sistema se comunicam.
 A arquitetura deve refletir o modelo de fatias verticais, evidenciando o fluxo:
 
 Front-end -> API (Back-end) -> Banco de Dados
-
-Semelhante à imagem abaixo:
  
 ### Inserir o Diagrama de Arquitetura do Projeto do Grupo
 
