@@ -1,25 +1,14 @@
 # 4. Projeto da Solução
 
-> Aviso aos Squads (Software House)
->
-> Esta seção não deve ser preenchida integralmente antes da codificação.
-> Trata-se de um Documento Vivo, que deverá ser atualizado incrementalmente a cada Sprint, refletindo fielmente o código real implementado.
-
----
-
 ## 4.1 Arquitetura da Solução (Sprint 1 e 2)
 
-Apresente um diagrama macro demonstrando como os componentes do sistema se comunicam.
+Diagrama macro que demonstra como os componentes do sistema se comunicam.
 
 A arquitetura deve refletir o modelo de fatias verticais, evidenciando o fluxo:
 
 Front-end -> API (Back-end) -> Banco de Dados
 
 Semelhante à imagem abaixo:
-
-![Exemplo de Arquitetura](https://uds.com.br/blog/wp-content/uploads/2024/09/Imagem-1-Comparativo-ilustrativo-das-diferencas-entre-front-end-e-back-end.jpg)
-
-Fonte: [Guia Completo de Desenvolvimento de Software - UDS](https://uds.com.br/blog/desenvolvimento-de-software-guia-completo/) <br><br>
  
 ### Inserir o Diagrama de Arquitetura do Projeto do Grupo
 
@@ -66,7 +55,7 @@ Ferramentas recomendadas:
 
 ## 4.2 Tecnologias Utilizadas (Sprint 1 e 2)
 
-Descreva as tecnologias, linguagens, frameworks, bibliotecas e serviços escolhidos pelo Squad.
+Tecnologias, linguagens, frameworks, bibliotecas e serviços escolhidos pelo Squad.
 
 | Dimensão | Tecnologia Escolhida |
 |----------|----------------------|
@@ -187,20 +176,6 @@ CREATE TABLE "core_moodentry" (
 
 ---
 
-Para Banco NoSQL
-
-Incluir a estrutura dos documentos JSON (Schema).
-
-Exemplo:
-
-```json
-{
-  "nome": "João Silva",
-  "email": "joao@email.com",
-  "senha": "hash_da_senha"
-}
-```
-
 ### Obrigatório
 
 O arquivo .sql ou .js deve ser salvo na pasta: src/bd
@@ -209,7 +184,6 @@ O arquivo .sql ou .js deve ser salvo na pasta: src/bd
  
 ---
 ### 4.4.2 Representação do Modelo Físico de Dados (Entrega na Sprint 3 - Core)
-
 
 > Fundamentação: Os modelos de dados físicos fornecem detalhes minuciosos que auxiliam administradores e desenvolvedores na implementação da lógica de negócios em um banco de dados real.
 > Eles incluem elementos não especificados no modelo lógico, como:
