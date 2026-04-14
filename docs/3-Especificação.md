@@ -25,7 +25,6 @@ Os **Requisitos Funcionais (RF)** descrevem o que o sistema deve fazer.
 
 ---
 
-
 ## Tabela de Requisitos Funcionais
 
 | ID    | Descrição do Requisito | Prioridade | 
@@ -37,6 +36,12 @@ Os **Requisitos Funcionais (RF)** descrevem o que o sistema deve fazer.
 | RF-05 | O sistema deve permitir que o usuário exclua seus registros. | 🟡 MÉDIA |
 | RF-06 | O sistema deve permitir a visualização do histórico de registros emocionais. | 🔴 ALTA |
 | RF-07 | O sistema deve permitir filtrar registros por data ou período. | 🟡 MÉDIA | 
+| RF-08 | O sistema deve exibir um alerta de confirmação antes de permitir a visualização do histórico de registros. | 🟡 MÉDIA |
+| RF-09 | O sistema deve permitir que o usuário visualize gráficos de frequência dos tipos de humor registrados. | 🔴 ALTA |
+| RF-10 | O sistema deve permitir que o usuário visualize padrões emocionais ao longo do tempo. | 🟡 MÉDIA |
+| RF-11 | O sistema deve apresentar um dashboard com análise de humor. | 🔴 ALTA |
+| RF-12 | O sistema deve permitir que o usuário edite seus registros de humor. | 🔴 ALTA |
+| RF-13 | O sistema deve permitir que o usuário visualize e edite seus dados pessoais. | 🟡 MÉDIA |
 
 ---
 
@@ -124,6 +129,62 @@ Eu quero filtrar meus registros por data ou período
 
 Para que eu encontre informações específicas com facilidade
 
+História 8 (relacionada ao RF-08)
+
+Como usuário
+
+Eu quero receber um alerta antes de visualizar meu histórico de registros
+
+Para que eu confirme minha intenção de acesso aos meus dados
+
+---
+
+### MÓDULO: Dashboard e Análise
+
+### História 9 (relacionada ao RF-09)
+
+Como usuário
+
+Eu quero visualizar gráficos de frequência
+
+Para que eu identifique quais emoções são mais recorrentes
+
+### História 10 (relacionada ao RF-10)
+
+Como usuário
+
+Eu quero visualizar padrões emocionais
+
+Para que eu identifique tendências no meu comportamento
+
+### História 11 (relacionada ao RF-11) 
+
+Como usuário 
+
+Eu quero visualizar um dashboard com análise do meu humor 
+
+Para que eu entenda melhor meu comportamento emocional
+
+---
+
+### MÓDULO: Edição 
+
+### História 12 (relacionada ao RF-12) 
+
+Como usuário
+
+Eu quero editar meus registros de humor
+
+Para que eu possa corrigir ou atualizar informações registradas anteriormente
+
+### História 13 (relacionada ao RF-13) 
+
+Como usuário
+
+Eu quero visualizar e editar meus dados pessoais
+
+Para que eu possa manter minhas informações atualizadas no sistema
+
 ---
 
 # 3.3 Requisitos Não Funcionais
@@ -202,5 +263,8 @@ A tabela abaixo deve ser preenchida com as regras de negócio que **impactam seu
 | RN-05 |	Se não houver registros cadastrados, então o sistema deve informar que não há dados disponíveis. | 
 | RN-06 |	Se um usuário aplicar filtros de data, então apenas os registros do período selecionado devem ser exibidos. | 
 | RN-07 |	Se os dados do usuário forem armazenados, então devem ser protegidos e não compartilhados sem autorização. | 
+| RN-08 | Se um usuário acessar o dashboard, então apenas seus dados devem ser exibidos. |
+| RN-09 | Se um usuário desejar editar seus dados, então ele deve estar autenticado, o que garante segurança nas alterações. |
+| RN-10 | Se um usuário tentar acessar seu histórico de registros, então o sistema deve exibir um alerta de confirmação antes de permitir o acesso. |
 
 ---
