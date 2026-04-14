@@ -4,11 +4,11 @@
 
 Diagrama macro que demonstra como os componentes do sistema se comunicam.
 
-A arquitetura deve refletir o modelo de fatias verticais, evidenciando o fluxo:
+A arquitetura reflete o modelo de fatias verticais, evidenciando o fluxo:
 
 Front-end -> API (Back-end) -> Banco de Dados
  
-### Inserir o Diagrama de Arquitetura do Projeto do Grupo
+### Diagrama de Arquitetura do Projeto 
 
 Abaixo está o fluxo da aplicação, demonstrando a comunicação entre o Front-end, a API (Back-end) e o Banco de Dados.
 
@@ -71,7 +71,7 @@ Tecnologias, linguagens, frameworks, bibliotecas e serviços escolhidos pelo Squ
 
 ##  4.3 Wireframes ou Mockups (A partir da Sprint 2)
 
-Apresente os protótipos das telas (Wireframes/Mockups) apenas das funcionalidades que estão sendo implementadas na Sprint atual.
+Protótipos das telas (Wireframes/Mockups) das funcionalidades que estão sendo implementadas na Sprint atual.
 
 Cada Wireframe ou Mockups devem estar associados a pelo menos:
 
@@ -181,6 +181,7 @@ O arquivo .sql ou .js deve ser salvo na pasta: src/bd
  - É permitido colar um trecho do script no README apenas para visualização rápida.
  
 ---
+
 ### 4.4.2 Representação do Modelo Físico de Dados (Entrega na Sprint 3 - Core)
 
 > Fundamentação: Os modelos de dados físicos fornecem detalhes minuciosos que auxiliam administradores e desenvolvedores na implementação da lógica de negócios em um banco de dados real.
