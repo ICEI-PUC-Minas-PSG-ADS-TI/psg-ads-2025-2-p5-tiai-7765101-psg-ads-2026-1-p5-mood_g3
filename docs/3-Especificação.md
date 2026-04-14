@@ -252,7 +252,7 @@ Elas podem envolver:
 
 ---
 
-A tabela abaixo deve ser preenchida com as regras de negócio que **impactam seu projeto**. 
+A tabela abaixo foi preenchida com as regras de negócio que **impactam o projeto**. 
 
 |  ID   | Regra de Negócio                                                      |
 |-------|-----------------------------------------------------------------------|
