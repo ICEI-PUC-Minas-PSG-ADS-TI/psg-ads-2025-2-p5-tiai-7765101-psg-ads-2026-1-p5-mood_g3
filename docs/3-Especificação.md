@@ -129,7 +129,7 @@ Eu quero filtrar meus registros por data ou período
 
 Para que eu encontre informações específicas com facilidade
 
-História 8 (relacionada ao RF-08)
+### História 8 (relacionada ao RF-08)
 
 Como usuário
 
