@@ -145,33 +145,33 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 
 # 🟡 Sprint 2 – MVP
 
-| Responsável                    | Papel                | Tarefa                                                                              | Início | Prazo | Status |
-|--------------------------------|----------------------|-------------------------------------------------------------------------------------|--------|-------|--------|
-| Camila Machado Pires Maia      | Facilitador Ágil     | Documentação Técnica (Especificacao.md), Wireframes e Tela Cadastro (front/back) | 19/03  | 06/04 | ✔️     |
-| Diego Rodrigues da Cruz        | Gerente de Qualidade | Desenvolvimento da Tela Registro de Humor (Front)                                   | 19/03  | 06/04 | 📝     |
-| Francisco Henrique de Moura    | Arquiteto de Dados   |      Integração do banco de dados PostgreSQL com Django e configuração do ambiente Docker | 19/03  | 06/04 | ✔️   |
-| Fredson Marinho Almeida Borges | Tech Lead            |  Dockerização do PostgreSQL, implementação do backend (Cadastro/Humor) com persistência real e realização de testes de integração e ponta a ponta (E2E).     | 19/03  | 06/04 | ✔️     |
+| Responsável                    | Papel                | Tarefa                                                                                                                                                  | Início | Prazo | Status |
+|--------------------------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------|--------|
+| Camila Machado Pires Maia      | Facilitador Ágil     | Documentação Técnica (Especificacao.md), Wireframes e Tela Cadastro (front/back)                                                                        | 19/03  | 06/04 | ✔️    |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Desenvolvimento da Tela Registro de Humor (Front)                                                                                                       | 19/03  | 06/04 | 📝    |
+| Francisco Henrique de Moura    | Arquiteto de Dados   | Integração do banco de dados PostgreSQL com Django e configuração do ambiente Docker                                                                    | 19/03  | 06/04 | ✔️    |
+| Fredson Marinho Almeida Borges | Tech Lead            | Dockerização do PostgreSQL, implementação do backend (Cadastro/Humor) com persistência real e realização de testes de integração e ponta a ponta (E2E). | 19/03  | 06/04 | ✔️    |
 
 ---
 
 # 🔵 Sprint 3 – Core
 
-| Responsável | Papel | Tarefa | Início | Prazo | Status |
-|-------------|--------|--------|--------|--------|--------|
-|             |        | Implementar Regra de Negócio Y | 06/04 | 15/04 | ❌ |
-|             |        | Implementar Cálculo/Processo Z | 06/04 | 15/04 | ❌ |
-|             |        | Atualizar DER via Engenharia Reversa | 16/04 | 20/04 | ❌ |
-|             |        | Atualizar Diagrama de Classes | 16/04 | 23/04 | ❌ |
+| Responsável                    | Papel                | Tarefa                                                        | Início | Prazo | Status |
+|--------------------------------|----------------------|---------------------------------------------------------------|--------|-------|--------|
+| Camila Machado Pires Maia      | Facilitador Ágil     | HomePage funcional, Documentação Técnica completa e Diagramas | 09/04  | 23/04 | 📝    |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Implementar Cálculo/Processo Z                                | 09/04  | 23/04 | ❌    |
+| Francisco Henrique de Moura    | Arquiteto de Dados   | Atualizar DER via Engenharia Reversa                          | 09/04  | 23/04 | ❌    |
+| Fredson Marinho Almeida Borges | Tech Lead            | Atualizar Diagrama de Classes                                 | 16/04  | 23/04 | ❌    |
 
 ---
 
 # 🔴 Sprint 4 – Finalização
 
-| Responsável | Papel | Tarefa | Início | Prazo | Status |
-|-------------|--------|--------|--------|--------|--------|
-|             |        | Correção de bugs | 22/05 | 05/06 | ❌ |
-|             |        | Finalizar relatórios e dashboards | 01/06 | 15/06 | ❌ |
-|             |        | Preencher Relatório APC | 10/06 | 20/06 | ❌ |
-|             |        | Testes finais e consolidar README | 15/06 | 25/06 | ❌ |
+| Responsável                    | Papel                | Tarefa | Início | Prazo | Status |
+|--------------------------------|----------------------|--------|--------|--------|--------|
+| Camila Machado Pires Maia      | Facilitador Ágil     | Correção de bugs | 22/05 | 05/06 | ❌ |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Finalizar relatórios e dashboards | 01/06 | 15/06 | ❌ |
+| Francisco Henrique de Moura    | Arquiteto de Dados   | Preencher Relatório APC | 10/06 | 20/06 | ❌ |
+| Fredson Marinho Almeida Borges | Tech Lead            | Testes finais e consolidar README | 15/06 | 25/06 | ❌ |
 
 ---
