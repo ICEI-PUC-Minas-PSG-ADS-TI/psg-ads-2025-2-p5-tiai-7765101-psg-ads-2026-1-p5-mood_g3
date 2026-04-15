@@ -33,7 +33,7 @@ Os **Requisitos Funcionais (RF)** descrevem o que o sistema deve fazer.
 | RF-02 | O sistema deve permitir que usuários realizem login com credenciais válidas. | 🔴 ALTA | 
 | RF-03 | O sistema deve permitir que o usuário registre seu humor diário. | 🔴 ALTA | 
 | RF-04 | O sistema deve permitir que o usuário adicione observações ao registro de humor. | 🟡 MÉDIA | 
-| RF-05 | O sistema deve permitir que o usuário exclua seus registros. | 🟡 MÉDIA |
+| RF-05 | O sistema deve permitir que o usuário exclua seus registros. | 🔴 ALTA |
 | RF-06 | O sistema deve permitir a visualização do histórico de registros emocionais. | 🔴 ALTA |
 | RF-07 | O sistema deve permitir filtrar registros por data ou período. | 🟡 MÉDIA | 
 | RF-08 | O sistema deve exibir um alerta de confirmação antes de permitir a visualização do histórico de registros. | 🟡 MÉDIA |
@@ -41,7 +41,7 @@ Os **Requisitos Funcionais (RF)** descrevem o que o sistema deve fazer.
 | RF-10 | O sistema deve permitir que o usuário visualize padrões emocionais ao longo do tempo. | 🟡 MÉDIA |
 | RF-11 | O sistema deve apresentar um dashboard com análise de humor. | 🔴 ALTA |
 | RF-12 | O sistema deve permitir que o usuário edite seus registros de humor. | 🔴 ALTA |
-| RF-13 | O sistema deve permitir que o usuário visualize e edite seus dados pessoais. | 🟡 MÉDIA |
+| RF-13 | O sistema deve permitir que o usuário visualize e edite seus dados pessoais. | 🔴 ALTA |
 
 ---
 
