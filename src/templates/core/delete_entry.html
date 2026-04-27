@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Excluir Registro – Mood Tracker{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="card shadow-sm border-danger">
+      <div class="card-header bg-danger text-white">
+        <h4 class="mb-0">Confirmar Exclusão</h4>
+      </div>
+      <div class="card-body">
+        <p>Tem certeza que deseja excluir este registro?</p>
+        <ul class="list-unstyled">
+          <li><strong>Data:</strong> {{ entry.created_at|date:"d/m/Y H:i" }}</li>
+          <li><strong>Emoção:</strong> {{ entry.get_emotion_display }}</li>
+          <li><strong>Intensidade:</strong> {{ entry.intensity_level }}/10</li>
+        </ul>
+        <form method="post">
+          {% csrf_token %}
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-danger">Excluir</button>
+            <a href="{% url 'core:dashboard' %}" class="btn btn-outline-secondary">Cancelar</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

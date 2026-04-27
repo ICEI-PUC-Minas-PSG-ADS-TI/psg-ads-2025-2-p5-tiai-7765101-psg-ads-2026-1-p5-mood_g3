@@ -13,3 +13,11 @@ class MoodEntryService:
         entry.user = user
         entry.save()
         return entry
+
+    @staticmethod
+    def update_entry(entry, form):
+        return form.save()
+
+    @staticmethod
+    def delete_entry(entry):
+        entry.delete()

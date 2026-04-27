@@ -87,12 +87,12 @@
 
           <div id="divIntensidade">
             <h2>Intensidade</h2>
-            <p style="color: gray">Como você avalia a intensidade desse humor? (1 = Leve e 5 = Forte)</p>
+            <p style="color: gray">Como você avalia a intensidade desse humor? (1 = Leve e 10 = Forte)</p>
             <div id="divRadius">
-              <input type="range" name="intensity_level" id="inputRange" min="1" max="5" value="3" oninput="document.getElementById('valorAtual').innerText = this.value" />
-             
+              <input type="range" name="intensity_level" id="inputRange" min="1" max="10" value="5" oninput="document.getElementById('valorAtual').innerText = this.value" />
+
               <div class="valores">
-                <span>1</span> <span id="valorAtual">3</span> <span>5</span>
+                <span>1</span> <span id="valorAtual">5</span> <span>10</span>
               </div>
             </div>
           </div>
