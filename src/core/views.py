@@ -39,8 +39,14 @@ def register_view(request):
 
 @login_required
 def dashboard_view(request):
-    entries = MoodEntryService.get_user_entries(request.user)
-    return render(request, "core/dashboard.html", {"entries": entries})
+    date_from = request.GET.get("date_from") or None
+    date_to = request.GET.get("date_to") or None
+    entries = MoodEntryService.get_user_entries(request.user, date_from=date_from, date_to=date_to)
+    return render(request, "core/dashboard.html", {
+        "entries": entries,
+        "date_from": date_from or "",
+        "date_to": date_to or "",
+    })
 
 @login_required
 def create_entry_view(request):
