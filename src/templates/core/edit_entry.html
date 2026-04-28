@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 
-{% block title %}Novo Registro{% endblock %}
+{% block title %}Editar Registro{% endblock %}
 
 {% block content %}
 <div class="row justify-content-center">
   <div class="col-md-8 col-lg-6">
     <div class="card shadow-sm">
       <div class="card-header bg-primary text-white">
-        <h4 class="mb-0">Como você está se sentindo?</h4>
+        <h4 class="mb-0">Editar Registro</h4>
       </div>
       <div class="card-body">
         <form method="post" novalidate>
@@ -29,7 +29,7 @@
           {% endfor %}
 
           <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-primary">Salvar Registro</button>
+            <button type="submit" class="btn btn-primary">Salvar Alterações</button>
             <a href="{% url 'core:dashboard' %}" class="btn btn-outline-secondary">Cancelar</a>
           </div>
         </form>

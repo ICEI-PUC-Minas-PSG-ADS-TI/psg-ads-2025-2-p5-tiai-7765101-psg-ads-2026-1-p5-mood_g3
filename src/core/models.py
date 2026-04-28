@@ -18,8 +18,8 @@ class MoodEntry(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     
     intensity_level = models.IntegerField(
-        validators=[MinValueValidator(1), MaxValueValidator(5)],
-        help_text="Escala de 1 a 5"
+        validators=[MinValueValidator(1), MaxValueValidator(10)],
+        help_text="Escala de 1 a 10"
     )
     
     emotion = models.CharField(
@@ -40,6 +40,6 @@ class MoodEntry(models.Model):
     def __str__(self) -> str:
         return (
             f"{self.user.username} - {self.get_emotion_display()} "
-            f"({self.intensity_level}/5) on "
+            f"({self.intensity_level}/10) on "
             f"{self.created_at:%Y-%m-%d}"
         )
