@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Moodly - Cuide da sua saúde mental{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="home-hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <h1 class="hero-title">Cuide da sua <span class="hero-highlight">saúde mental</span> diariamente</h1>
+      <p class="hero-desc">
+        O MOODLY é o seu companheiro no acompanhamento do bem-estar emocional.
+        Registre, analise e compreenda seus padrões emocionais de forma simples e eficaz.
+      </p>
+      <div class="hero-actions">
+        <a href="{% url 'register' %}" class="btn-primary-purple">Começar Agora</a>
+        <a href="#about" class="btn-outline-purple">Saiba Mais</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="image-placeholder">
+        <svg viewBox="0 0 100 100" fill="none" stroke="#333" stroke-width="1">
+          <rect x="10" y="10" width="80" height="80" rx="6"/>
+          <circle cx="35" cy="35" r="6"/>
+          <path d="M15 80 L40 55 L60 70 L85 45 L85 85 L15 85 Z"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-stats">
+  <div class="stats-grid">
+    <div class="stat-item">
+      <div class="stat-value">{{ users }}</div>
+      <div class="stat-label">Usuários Ativos</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">{{ registers }}</div>
+      <div class="stat-label">Registros de Humor</div>
+    </div>
+  </div>
+</section>
+
+<section class="home-features">
+  <h2 class="section-title">Por que escolher o MOODLY?</h2>
+  <div class="features-grid">
+
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9810FA" stroke-width="2">
+          <rect x="3" y="4" width="18" height="18" rx="2"/>
+          <line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+      </div>
+      <h3 class="feature-title">Registro Diário</h3>
+      <p class="feature-desc">Registre seu humor e emoções todos os dias de forma simples e rápida</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9810FA" stroke-width="2">
+          <line x1="18" y1="20" x2="18" y2="10"/>
+          <line x1="12" y1="20" x2="12" y2="4"/>
+          <line x1="6" y1="20" x2="6" y2="14"/>
+        </svg>
+      </div>
+      <h3 class="feature-title">Análises Detalhadas</h3>
+      <p class="feature-desc">Visualize gráficos e relatórios sobre seus padrões emocionais</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9810FA" stroke-width="2">
+          <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+          <polyline points="16 7 22 7 22 13"/>
+        </svg>
+      </div>
+      <h3 class="feature-title">Acompanhamento</h3>
+      <p class="feature-desc">Identifique tendências e evolução do seu bem-estar ao longo do tempo</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9810FA" stroke-width="2">
+          <path d="M12 2 L4 6 V12 C4 17 8 21 12 22 C16 21 20 17 20 12 V6 Z"/>
+        </svg>
+      </div>
+      <h3 class="feature-title">Privacidade</h3>
+      <p class="feature-desc">Seus dados são privados e seguros, apenas você tem acesso</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9810FA" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+      </div>
+      <h3 class="feature-title">Histórico Completo</h3>
+      <p class="feature-desc">Acesse todos os seus registros anteriores organizados por data</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9810FA" stroke-width="2">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+      </div>
+      <h3 class="feature-title">Autoconhecimento</h3>
+      <p class="feature-desc">Desenvolva maior consciência emocional e bem-estar mental</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="home-about" id="about">
+  <div class="about-grid">
+    <div class="about-image">
+      <div class="image-placeholder">
+        <svg viewBox="0 0 100 100" fill="none" stroke="#333" stroke-width="1">
+          <rect x="10" y="10" width="80" height="80" rx="6"/>
+          <circle cx="35" cy="35" r="6"/>
+          <path d="M15 80 L40 55 L60 70 L85 45 L85 85 L15 85 Z"/>
+        </svg>
+      </div>
+    </div>
+    <div class="about-text">
+      <h2 class="about-title">Sobre o <span class="about-highlight">MOODLY</span></h2>
+      <p>A iniciativa nasce da necessidade de fornecer ferramentas acessíveis e simples para que estudantes e jovens adultos possam acompanhar seu bem-estar emocional.</p>
+      <p>Em um mundo cada vez mais acelerado, com pressões acadêmicas e profissionais, é fundamental ter momentos de reflexão sobre nossas emoções e padrões de comportamento.</p>
+      <p>Nossa missão é promover a saúde mental através do autoconhecimento e da consciência emocional.</p>
+      <a href="{% url 'register' %}" class="btn-primary-purple">Comece sua jornada</a>
+    </div>
+  </div>
+</section>
+
+<section class="home-howto">
+  <h2 class="section-title">Como funciona?</h2>
+  <p class="section-subtitle">Apenas 3 passos simples para começar sua jornada.</p>
+  <div class="steps-grid">
+    <div class="step-item">
+      <div class="step-number">1</div>
+      <h3 class="step-title">Crie sua conta</h3>
+      <p class="step-desc">Cadastre-se de forma gratuita rapidamente</p>
+    </div>
+    <div class="step-item">
+      <div class="step-number">2</div>
+      <h3 class="step-title">Registre seu humor</h3>
+      <p class="step-desc">Anote como você está se sentindo diariamente</p>
+    </div>
+    <div class="step-item">
+      <div class="step-number">3</div>
+      <h3 class="step-title">Analise padrões</h3>
+      <p class="step-desc">Visualize seus dados e compreenda suas emoções</p>
+    </div>
+  </div>
+</section>
+
+<section class="home-cta">
+  <div class="cta-inner">
+    <h2 class="cta-title">Pronto para começar sua jornada de autoconhecimento?</h2>
+    <p class="cta-desc">Junte-se a várias pessoas que já estão cuidando da saúde mental com a gente.</p>
+    <a href="{% url 'register' %}" class="btn-cta-white">Criar Conta</a>
+  </div>
+</section>
+
+{% endblock %}
