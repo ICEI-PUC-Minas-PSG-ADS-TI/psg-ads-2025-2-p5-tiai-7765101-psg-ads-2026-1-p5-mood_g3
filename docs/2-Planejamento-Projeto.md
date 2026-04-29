@@ -158,9 +158,9 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 
 | Responsável                    | Papel                | Tarefa                                                        | Início | Prazo | Status |
 |--------------------------------|----------------------|---------------------------------------------------------------|--------|-------|--------|
-| Camila Machado Pires Maia      | Facilitador Ágil     | HomePage funcional, Documentação Técnica completa e implementação de edição, exclusão e filtro por data. | 09/04  | 23/04 | 📝    |
-| Diego Rodrigues da Cruz        | Gerente de Qualidade | Implementar Cálculo/Processo Z                                | 09/04  | 23/04 | ❌    |
-| Francisco Henrique de Moura    | Arquiteto de Dados   | Atualizar DER via Engenharia Reversa                          | 09/04  | 23/04 | ❌    |
+| Camila Machado Pires Maia      | Facilitador Ágil     | HomePage funcional, Documentação Técnica completa e implementação de edição, exclusão e filtro por data. | 09/04  | 29/04 | 📝    |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Funcionalidade de Editar perfil do usuário(visualizar e editar informações p pessoais)                                | 09/04  | 29/04 | ❌    |
+| Francisco Henrique de Moura    | Arquiteto de Dados   | ⁠Emitir alerta ao tentar acessar histórico registros/Funcionalidade de dashboard  | 09/04  | 29/04 |  ❌    |
 | Fredson Marinho Almeida Borges | Tech Lead            | Atualizar Diagrama de Classes                                 | 16/04  | 23/04 | ❌    |
 
 ---
