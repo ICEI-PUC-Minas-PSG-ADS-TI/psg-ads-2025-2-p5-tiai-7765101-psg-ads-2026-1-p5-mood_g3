@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from django.urls import include, path
-
+from core import views
 from core.views import register_view
 
 urlpatterns = [
@@ -10,4 +10,5 @@ urlpatterns = [
     path("logout/", auth_views.LogoutView.as_view(), name="logout"),
     path("register/", register_view, name="register"),
     path("", include("core.urls")),
+    path("dashboard/graficos/", views.dashboard_graphs, name="dashboard_graphs"),
 ]

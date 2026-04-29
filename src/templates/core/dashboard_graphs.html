@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Gráficos{% endblock %}
+
+{% block content %}
+
+<h2 class="mb-4">📊 Análise de Humor</h2>
+
+<!-- GRÁFICOS -->
+<div class="mb-5">
+  <h5>Evolução do Humor</h5>
+  <canvas id="moodChart"></canvas>
+</div>
+
+<div class="mb-5">
+  <h5>Distribuição de Emoções</h5>
+  <canvas id="emotionChart"></canvas>
+</div>
+
+<!-- DADOS PARA JS -->
+{{ daily|json_script:"daily-data" }}
+{{ emotions|json_script:"emotion-data" }}
+
+<!-- CHART + JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{% static 'js/dashboard_charts.js' %}" defer></script>
+
+{% endblock %}

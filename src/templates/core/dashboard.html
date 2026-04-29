@@ -45,6 +45,9 @@
     <button class="btn btn-warning" onclick="mostrarAviso()" id="btnMostrar">
       👁️ Mostrar registros
     </button>
+ <a href="{% url 'dashboard_graphs' %}" class="btn btn-warning">
+  📊 Mostrar Gráficos de Humor
+</a>
 
     <button class="btn btn-outline-dark" onclick="toggleAllRows()" id="toggleAllBtn" style="display: none;">
       👁️ Ocultar todos
@@ -185,5 +188,6 @@
     btn.innerText = allHidden ? "👁️ Mostrar todos" : "👁️ Ocultar todos";
   }
 </script>
+
 
 {% endblock %}

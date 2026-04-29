@@ -3,7 +3,8 @@ from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.shortcuts import get_object_or_404, redirect, render
-
+from django.db.models import Count, Avg
+from django.db.models.functions import TruncDate
 from .forms import MoodEntryForm, UserRegistrationForm
 from .models import MoodEntry
 from .services import MoodEntryService
@@ -81,3 +82,25 @@ def delete_entry_view(request, pk):
         MoodEntryService.delete_entry(entry)
         return redirect("core:dashboard")
     return render(request, "core/delete_entry.html", {"entry": entry})
+
+@login_required
+def dashboard_graphs(request):
+    entries = MoodEntry.objects.filter(user=request.user)
+
+    daily = (
+        entries.annotate(date=TruncDate("created_at"))
+        .values("date")
+        .annotate(avg=Avg("intensity_level"))
+        .order_by("date")
+    )
+
+    emotions = (
+        entries.values("emotion")
+        .annotate(count=Count("emotion"))
+        .order_by("-count")
+    )
+
+    return render(request, "core/dashboard_graphs.html", {
+        "daily": list(daily),
+        "emotions": list(emotions),
+    })

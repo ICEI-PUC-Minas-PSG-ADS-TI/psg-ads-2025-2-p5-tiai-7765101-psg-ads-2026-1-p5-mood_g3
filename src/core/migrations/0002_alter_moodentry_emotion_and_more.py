@@ -19,6 +19,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='moodentry',
             name='intensity_level',
-            field=models.IntegerField(help_text='Escala de 1 a 5', validators=[django.core.validators.MinValueValidator(1), django.core.validators.MaxValueValidator(5)]),
+            field=models.IntegerField(help_text='Escala de 1 a 10', validators=[django.core.validators.MinValueValidator(1), django.core.validators.MaxValueValidator(5)]),
         ),
     ]
