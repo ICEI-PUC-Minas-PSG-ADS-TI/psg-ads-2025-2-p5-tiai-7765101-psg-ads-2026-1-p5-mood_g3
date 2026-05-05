@@ -1,0 +1,86 @@
+[
+  {
+    "user_email": "fredson@moodly.com",
+    "emotion": "FELIZ",
+    "intensity_level": 8,
+    "notes": "Dia produtivo, terminei o projeto que estava pendente."
+  },
+  {
+    "user_email": "fredson@moodly.com",
+    "emotion": "ANSIOSO",
+    "intensity_level": 6,
+    "notes": "Prova chegando, preciso estudar mais."
+  },
+  {
+    "user_email": "fredson@moodly.com",
+    "emotion": "MUITO_FELIZ",
+    "intensity_level": 10,
+    "notes": "Recebi notícia ótima da família!"
+  },
+  {
+    "user_email": "francisco@moodly.com",
+    "emotion": "NEUTRO",
+    "intensity_level": 5,
+    "notes": null
+  },
+  {
+    "user_email": "francisco@moodly.com",
+    "emotion": "CANSADO",
+    "intensity_level": 7,
+    "notes": "Semana cheia de reuniões."
+  },
+  {
+    "user_email": "francisco@moodly.com",
+    "emotion": "ALIVIADO",
+    "intensity_level": 8,
+    "notes": "Entreguei o relatório no prazo."
+  },
+  {
+    "user_email": "diego@moodly.com",
+    "emotion": "TRISTE",
+    "intensity_level": 4,
+    "notes": "Saudade dos amigos."
+  },
+  {
+    "user_email": "diego@moodly.com",
+    "emotion": "FELIZ",
+    "intensity_level": 7,
+    "notes": "Almoço com a família foi ótimo."
+  },
+  {
+    "user_email": "diego@moodly.com",
+    "emotion": "ANSIOSO",
+    "intensity_level": 9,
+    "notes": "Entrevista de emprego amanhã."
+  },
+  {
+    "user_email": "diego@moodly.com",
+    "emotion": "MUITO_FELIZ",
+    "intensity_level": 10,
+    "notes": "Passei na entrevista!"
+  },
+  {
+    "user_email": "camila@moodly.com",
+    "emotion": "MUITO_TRISTE",
+    "intensity_level": 3,
+    "notes": "Dia difícil, preciso descansar."
+  },
+  {
+    "user_email": "camila@moodly.com",
+    "emotion": "ALIVIADO",
+    "intensity_level": 7,
+    "notes": "Resolvi um problema antigo hoje."
+  },
+  {
+    "user_email": "camila@moodly.com",
+    "emotion": "FELIZ",
+    "intensity_level": 8,
+    "notes": "Comecei uma rotina de exercícios."
+  },
+  {
+    "user_email": "camila@moodly.com",
+    "emotion": "NEUTRO",
+    "intensity_level": 5,
+    "notes": null
+  }
+]

@@ -11,8 +11,9 @@ from .services import MoodEntryService
 def index(request):
     if request.user.is_authenticated:
         return redirect("core:dashboard")
-    
-    return render(request, "registration/login.html")
+    users = User.objects.count()
+    registers = MoodEntry.objects.count()
+    return render(request, "core/home.html", {"users": users, "registers": registers})
 
 
 def register_view(request):
