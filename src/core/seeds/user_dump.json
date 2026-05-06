@@ -1,0 +1,22 @@
+[
+  {
+    "email": "fredson@moodly.com",
+    "name": "Fredson",
+    "password": "moodly123"
+  },
+  {
+    "email": "francisco@moodly.com",
+    "name": "Francisco",
+    "password": "moodly123"
+  },
+  {
+    "email": "diego@moodly.com",
+    "name": "Diego",
+    "password": "moodly123"
+  },
+  {
+    "email": "camila@moodly.com",
+    "name": "Camila",
+    "password": "moodly123"
+  }
+]
