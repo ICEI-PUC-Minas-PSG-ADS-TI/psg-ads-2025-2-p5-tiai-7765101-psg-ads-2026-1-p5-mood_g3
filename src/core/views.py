@@ -81,3 +81,11 @@ def delete_entry_view(request, pk):
         MoodEntryService.delete_entry(entry)
         return redirect("core:dashboard")
     return render(request, "core/delete_entry.html", {"entry": entry})
+
+@login_required
+def profile_view(request):
+    user = request.user  # pega usuário logado
+
+    return render(request, "profile.html", {
+        "user": user
+    })

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../static/css/reg_humor.css" />
+    <link rel="stylesheet" href="../../static/css/edit_dados_pessoais.css" />
+    <title>Dados Pessoais</title>
+  </head>
+  <body>
+    <div>
+      <div id="header">
+        <div class="Logo">
+          <img
+            src="../../static/img/logo.png"
+            class="imgLogo"
+            alt="Logo do Site"
+          />
+          <p class="paragLogo">MOODLY</p>
+        </div>
+        <div id="header_config">
+          <div id="hUser">
+            <i class="fa-regular fa-user" style="color: #9810fa"></i>
+            <p>{{ request.user.username|default:"Usuário" }}</p>
+          </div>
+          <div id="divSair">
+            <button type="button" id="buttonSair">
+              <i
+                class="fa-solid fa-arrow-right-from-bracket"
+                style="padding: 0px 9px"
+              ></i
+              >Sair
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2>Dados Pessoais</h2>
+
+        <div class="info"><strong>Nome:</strong> {{ user.first_name }}</div>
+        <div class="info"><strong>Usuário:</strong> {{ user.username }}</div>
+        <div class="info"><strong>Email:</strong> {{ user.email }}</div>
+        <div class="info">
+          <strong>Data de cadastro:</strong> {{ user.created_at }}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
