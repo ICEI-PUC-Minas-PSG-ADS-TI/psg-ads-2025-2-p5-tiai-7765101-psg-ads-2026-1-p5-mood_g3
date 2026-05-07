@@ -148,7 +148,7 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 | Responsável                    | Papel                | Tarefa                                                                                                                                                  | Início | Prazo | Status |
 |--------------------------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------|--------|
 | Camila Machado Pires Maia      | Facilitador Ágil     | Documentação Técnica (Especificacao.md), Wireframes e Tela Cadastro (front/back)                                                                        | 19/03  | 06/04 | ✔️    |
-| Diego Rodrigues da Cruz        | Gerente de Qualidade | Desenvolvimento da Tela Registro de Humor (Front)                                                                                                       | 19/03  | 06/04 | 📝    |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Desenvolvimento da Tela Registro de Humor (Front)                                                                                                       | 19/03  | 06/04 | ✔️    |
 | Francisco Henrique de Moura    | Arquiteto de Dados   | Integração do banco de dados PostgreSQL com Django e configuração do ambiente Docker                                                                    | 19/03  | 06/04 | ✔️    |
 | Fredson Marinho Almeida Borges | Tech Lead            | Dockerização do PostgreSQL, implementação do backend (Cadastro/Humor) com persistência real e realização de testes de integração e ponta a ponta (E2E)  | 19/03  | 06/04 | ✔️    |
 
@@ -159,9 +159,9 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 | Responsável                    | Papel                | Tarefa                                                        | Início | Prazo | Status |
 |--------------------------------|----------------------|---------------------------------------------------------------|--------|-------|--------|
 | Camila Machado Pires Maia      | Facilitador Ágil     | HomePage funcional, Documentação Técnica completa e Implementação de edição, exclusão e filtro por data | 09/04  | 29/04 | ✔️    |
-| Diego Rodrigues da Cruz        | Gerente de Qualidade | Funcionalidade de Editar perfil do usuário (visualizar e editar informações pessoais)                                | 09/04  | 29/04 | ❌    |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Funcionalidade de Editar perfil do usuário (visualizar e editar informações pessoais)                                | 09/04  | 07/05 | ❌    |
 | Francisco Henrique de Moura    | Arquiteto de Dados   | ⁠Emitir alerta ao tentar acessar histórico de registros/Funcionalidade de dashboard  | 09/04  | 29/04 |  ❌    |
-| Fredson Marinho Almeida Borges | Tech Lead            | Atualizar Diagrama de Classes                                 | 16/04  | 07/05 | ❌    |
+| Fredson Marinho Almeida Borges | Tech Lead            | Atualizar Diagrama de Classes                                 | 09/04  | 07/05 | ❌    |
 
 ---
 
