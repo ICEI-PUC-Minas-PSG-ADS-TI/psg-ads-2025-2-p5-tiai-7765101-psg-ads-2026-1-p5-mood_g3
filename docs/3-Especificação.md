@@ -268,3 +268,68 @@ A tabela abaixo foi preenchida com as regras de negócio que **impactam o projet
 | RN-10 | Se um usuário tentar acessar seu histórico de registros, então o sistema deve exibir um alerta de confirmação antes de permitir o acesso. |
 
 ---
+
+## 3.6 Validações e Cálculos Detalhados (Implementação Técnica)
+
+> Esta seção detalha as validações específicas e cálculos utilizados no código.
+
+### 3.6.1 Validações de Cadastro e Autenticação
+
+| ID | Validação | Critério | Exceção |
+|---|---|---|---|
+| VAL-01 | Formato de Email | RFC 5322 compliant | ValidationError |
+| VAL-02 | Unicidade de Email | Não permitir duplicatas | ValidationError: "Email já existente" |
+| VAL-03 | Comprimento de Senha | Mínimo 8 caracteres | ValidationError |
+| VAL-04 | Complexidade de Senha | Deve conter letra maiúscula + número | ValidationError |
+| VAL-05 | Correspondência de Senhas | Confirmação deve coincidir com original | ValidationError: "Senhas não conferem" |
+| VAL-06 | Nome de Usuário | Alfanumérico + underscore (máx 150 chars) | ValidationError |
+
+### 3.6.2 Validações de Registro de Humor
+
+| ID | Validação | Critério | Exceção |
+|---|---|---|---|
+| VAL-10 | Intensidade | Intervalo obrigatório: 1-10 | ValidationError: "Intensidade deve estar entre 1 e 10" |
+| VAL-11 | Emoção | Deve estar em: [MUITO_FELIZ, FELIZ, NEUTRO, TRISTE, MUITO_TRISTE, CANSADO, ANSIOSO, ALIVIADO] | ValidationError: "Emoção inválida" |
+| VAL-12 | Autenticação | Apenas usuários logados podem registrar | @login_required → Redirect para /login/ |
+| VAL-13 | Limite de Requisições | Não permitir múltiplos registros em menos de 1 minuto | Avisar: "Aguarde antes de criar novo registro" |
+| VAL-14 | Notas | Máximo 500 caracteres (opcional) | ValidationError se ultrapassar |
+| VAL-15 | Timestamp | Automaticamente capturado como `created_at` | Imutável após criação |
+
+### 3.6.3 Validações de Acesso e Segurança
+
+| ID | Validação | Critério | Exceção |
+|---|---|---|---|
+| VAL-20 | Isolamento de Dados | Usuário A NÃO pode ver dados do Usuário B | Http404 ou PermissionDenied |
+| VAL-21 | Edição | Só proprietário pode editar seu registro | Http404 se user != entry.user |
+| VAL-22 | Exclusão | Só proprietário pode deletar seu registro | Http404 + require POST (não GET) |
+| VAL-23 | CSRF Protection | Todo formulário POST protegido por token CSRF | Rejeitar sem token válido |
+| VAL-24 | Password Hashing | Senhas armazenadas com PBKDF2+SHA256 (padrão Django) | Nunca armazenar em plain text |
+
+### 3.6.4 Cálculos de Métricas e Estatísticas
+
+| ID | Métrica | Fórmula | Tipo | Uso |
+|---|---|---|---|---|
+| CALC-01 | Intensidade Média Diária | SUM(intensidade) / COUNT(registros) | Decimal | Dashboard diário |
+| CALC-02 | Emoção Predominante | MODE(emoção) últimos 30 dias | Categoria | Card no dashboard |
+| CALC-03 | Variação (StdDev) | √(Σ(x - μ)² / N) | Decimal | Gráfico de volatilidade |
+| CALC-04 | Dias com Registro | COUNT(DISTINCT date(created_at)) | Integer | Estatística de comprometimento |
+| CALC-05 | Dias sem Registro | Total dias - Dias com registro | Integer | Identificar gaps |
+| CALC-06 | Emoção por Frequência | GROUP BY emotion ORDER BY count DESC | Lista | Gráfico de pizza |
+
+### 3.6.5 Fluxos de Autorização e Acesso
+
+#### Matriz de Controle de Acesso
+
+| Funcionalidade | Anônimo | Usuário Logado | Admin |
+|---|---|---|---|
+| Ver Home | ✅ | ✅ | ✅ |
+| Login | ✅ | ❌ (redir. a dashboard) | ❌ |
+| Registrar | ✅ | ❌ (redir. a dashboard) | ✅ |
+| Acessar Dashboard | ❌ (redir. a login) | ✅ | ✅ |
+| Criar Registro | ❌ (redir. a login) | ✅ (próprio) | ✅ |
+| Editar Registro | ❌ (redir. a login) | ✅ (próprio apenas) | ✅ |
+| Deletar Registro | ❌ (redir. a login) | ✅ (próprio apenas) | ✅ |
+| Ver Histórico | ❌ (redir. a login) | ✅ (próprio) | ✅ |
+| Acessar Admin | ❌ | ❌ | ✅ |
+
+---
