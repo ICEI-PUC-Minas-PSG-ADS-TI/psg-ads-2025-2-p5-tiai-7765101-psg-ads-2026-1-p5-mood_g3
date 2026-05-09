@@ -159,7 +159,7 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 | Responsável                    | Papel                | Tarefa                                                        | Início | Prazo | Status |
 |--------------------------------|----------------------|---------------------------------------------------------------|--------|-------|--------|
 | Camila Machado Pires Maia      | Facilitador Ágil     | HomePage funcional, Documentação Técnica completa e Implementação de edição, exclusão e filtro por data | 09/04  | 29/04 | ✔️    |
-| Diego Rodrigues da Cruz        | Gerente de Qualidade | Funcionalidade de Editar perfil do usuário (visualizar e editar informações pessoais)                                | 09/04  | 07/05 | ❌    |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Funcionalidade de Editar perfil do usuário (visualizar e editar informações pessoais)                                | 09/04  | 07/05 | ✔️    |
 | Francisco Henrique de Moura    | Arquiteto de Dados   | ⁠Emitir alerta ao tentar acessar histórico de registros/Funcionalidade de dashboard  | 09/04  | 29/04 |  ✔️ |
 | Fredson Marinho Almeida Borges | Tech Lead            | Atualização de Documentação Técnica (Requisitos, Diagramas) e Criação da Documentação de Engenharia Reversa                               | 09/04  | 07/05 | ✔️    |
 
