@@ -105,3 +105,20 @@ def dashboard_graphs(request):
         "daily": list(daily),
         "emotions": list(emotions),
     })
+
+@login_required
+def profile_view(request):
+    return render(request, "core/profile_view.html", {"user": request.user})
+
+@login_required
+def profile_view(request):
+    if request.method == "POST":
+        new_email = request.POST.get("email")
+        if new_email:
+            request.user.email = new_email
+            request.user.username = new_email  # pois seu username é o email
+            request.user.save()
+            messages.success(request, "Email atualizado com sucesso!")
+            return redirect("core:profile")
+
+    return render(request, "core/profile_view.html")

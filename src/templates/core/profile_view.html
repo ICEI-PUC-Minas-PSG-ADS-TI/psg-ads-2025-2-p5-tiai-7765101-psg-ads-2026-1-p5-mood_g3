@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Dados Pessoais{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="{% static 'css/profile_view.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="divProfile">
+    <div class="profile-icon">
+        <i class="fa-regular fa-circle-user"></i>
+    </div>
+    <h2>Dados Pessoais</h2>
+
+    <div class="info">
+        <strong>Nome:</strong>
+        {{ user.first_name }}
+    </div>
+
+    <div class="info email-info">
+        <div class="info-row">
+            <span><strong>Email:</strong> <span id="email-text">{{ user.email }}</span></span>
+            <button type="button" class="btn-edit" onclick="toggleEdit()">
+                <i class="fa-solid fa-pen"></i> Editar
+            </button>
+        </div>
+
+        <form method="POST" id="email-form" style="display:none; margin-top: 12px;">
+            {% csrf_token %}
+            <input type="email" name="email" value="{{ user.email }}" class="email-input" required>
+            <div class="form-actions">
+                <button type="submit" class="btn-save">Salvar</button>
+                <button type="button" class="btn-cancel" onclick="toggleEdit()">Cancelar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="info">
+        <strong>Data de cadastro:</strong>
+        {{ user.date_joined|date:"d/m/Y" }}
+    </div>
+</div>
+<script>
+    function toggleEdit() {
+        const form = document.getElementById("email-form");
+        form.style.display = form.style.display === "none" ? "block" : "none";
+    }
+</script>
+{% endblock %}

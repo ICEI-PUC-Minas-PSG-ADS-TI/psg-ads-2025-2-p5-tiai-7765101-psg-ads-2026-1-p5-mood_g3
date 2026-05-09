@@ -11,4 +11,5 @@ urlpatterns = [
     path("register/", register_view, name="register"),
     path("", include("core.urls")),
     path("dashboard/graficos/", views.dashboard_graphs, name="dashboard_graphs"),
+    path("entry/<int:pk>/profile/", views.profile_view, name="profile_view"),
 ]
