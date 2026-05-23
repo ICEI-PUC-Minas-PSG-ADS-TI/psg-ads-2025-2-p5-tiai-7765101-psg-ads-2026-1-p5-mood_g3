@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.shortcuts import get_object_or_404, redirect, render
 from django.db.models import Count, Avg
-from django.db.models.functions import TruncDate
+from django.db.models.functions import TruncDate, ExtractHour, TruncWeek
 from .forms import MoodEntryForm, UserRegistrationForm
 from .models import MoodEntry
 from .services import MoodEntryService
@@ -89,18 +89,21 @@ def dashboard_graphs(request):
     entries = MoodEntry.objects.filter(user=request.user)
 
     daily = (
-        entries.annotate(date=TruncDate("created_at"))
+        entries
+        .annotate(date=TruncDate("created_at"))
         .values("date")
         .annotate(avg=Avg("intensity_level"))
         .order_by("date")
     )
 
     emotions = (
-        entries.values("emotion")
+        entries
+        .values("emotion")
         .annotate(count=Count("emotion"))
         .order_by("-count")
     )
 
+<<<<<<< Updated upstream
     return render(request, "core/dashboard_graphs.html", {
         "daily": list(daily),
         "emotions": list(emotions),
@@ -122,3 +125,35 @@ def profile_view(request):
             return redirect("core:profile")
 
     return render(request, "core/profile_view.html")
+=======
+    hourly = (
+        entries
+        .annotate(hour=ExtractHour("created_at"))
+        .values("hour")
+        .annotate(count=Count("id"))
+        .order_by("hour")
+    )
+
+    weekly = list(
+        entries
+        .annotate(week=TruncWeek("created_at"))
+        .values("week")
+        .annotate(avg=Avg("intensity_level"))
+        .order_by("week")
+    )
+
+    # FORMATAR DATA
+    for item in weekly:
+        item["week"] = item["week"].strftime("%d/%m/%Y")
+
+    return render(
+        request,
+        "core/dashboard_graphs.html",
+        {
+            "daily": list(daily),
+            "emotions": list(emotions),
+            "hourly": list(hourly),
+            "weekly": weekly,
+        }
+    )
+>>>>>>> Stashed changes

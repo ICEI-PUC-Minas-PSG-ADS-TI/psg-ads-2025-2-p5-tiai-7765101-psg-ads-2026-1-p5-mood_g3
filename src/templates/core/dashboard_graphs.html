@@ -1,29 +1,91 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Gráficos{% endblock %}
+{% block title %}Dashboard Emocional{% endblock %}
 
 {% block content %}
 
-<h2 class="mb-4">📊 Análise de Humor</h2>
+<div class="container py-4">
 
-<!-- GRÁFICOS -->
-<div class="mb-5">
-  <h5>Evolução do Humor</h5>
-  <canvas id="moodChart"></canvas>
+    <!-- TÍTULO -->
+    <div class="mb-5">
+        <h1 class="fw-bold text-primary">
+            📊 Dashboard Emocional
+        </h1>
+
+        <p class="text-muted">
+            Visualize padrões emocionais, horários e evolução do humor.
+        </p>
+    </div>
+<p>{{ hourly }}</p>
+<p>{{ weekly }}</p>
+    <!-- GRID -->
+    <div class="row g-4">
+
+        <!-- EVOLUÇÃO -->
+        <div class="col-lg-6">
+            <div class="card shadow-sm border-0 rounded-4 h-100">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">
+                        📈 Evolução do Humor
+                    </h5>
+
+                    <canvas id="moodChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- EMOÇÕES -->
+        <div class="col-lg-6">
+            <div class="card shadow-sm border-0 rounded-4 h-100">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">
+                        😊 Distribuição de Emoções
+                    </h5>
+
+                    <canvas id="emotionChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- HORÁRIOS -->
+        <div class="col-lg-6">
+            <div class="card shadow-sm border-0 rounded-4 h-100">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">
+                        ⏰ Registros por Horário
+                    </h5>
+
+                    <canvas id="hourChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEMANAL -->
+        <div class="col-lg-6">
+            <div class="card shadow-sm border-0 rounded-4 h-100">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">
+                        📅 Média Semanal
+                    </h5>
+
+                    <canvas id="weekChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
 
-<div class="mb-5">
-  <h5>Distribuição de Emoções</h5>
-  <canvas id="emotionChart"></canvas>
-</div>
-
-<!-- DADOS PARA JS -->
+<!-- DADOS -->
 {{ daily|json_script:"daily-data" }}
 {{ emotions|json_script:"emotion-data" }}
+{{ hourly|json_script:"hourly-data" }}
+{{ weekly|json_script:"weekly-data" }}
 
-<!-- CHART + JS -->
+<!-- CHART -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script src="{% static 'js/dashboard_charts.js' %}" defer></script>
 
 {% endblock %}
