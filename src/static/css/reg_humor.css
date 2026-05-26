@@ -63,6 +63,12 @@
 #divIntensidade {
   width: 100%;
   font-family: Arial, sans-serif;
+  margin-top: 32px;
+}
+
+#divAtvDia,
+#divObservacoes {
+  margin-top: 32px;
 }
 
 input[type="range"] {
