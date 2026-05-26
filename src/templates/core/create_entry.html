@@ -9,6 +9,26 @@
 {% endblock %}
 
 {% block content %}
+
+<style>
+  .btn-back {
+    background: none;
+    border: none;
+    color: #9810FA;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  .btn-back:hover { color: #c606da; }
+</style>
+
+<a class="btn-back" href="{% url 'core:index' %}" aria-label="Voltar">&lsaquo;</a>
+
 <form method="POST">
   {% csrf_token %}
 

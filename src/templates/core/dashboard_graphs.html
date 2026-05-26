@@ -5,6 +5,25 @@
 
 {% block content %}
 
+<style>
+  .btn-back {
+    background: none;
+    border: none;
+    color: #9810FA;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  .btn-back:hover { color: #c606da; }
+</style>
+
+<a class="btn-back" href="{% url 'core:index' %}" aria-label="Voltar">&lsaquo;</a>
+
 <div class="container py-4">
 
     <!-- TÍTULO -->
@@ -17,8 +36,7 @@
             Visualize padrões emocionais, horários e evolução do humor.
         </p>
     </div>
-<p>{{ hourly }}</p>
-<p>{{ weekly }}</p>
+
     <!-- GRID -->
     <div class="row g-4">
 

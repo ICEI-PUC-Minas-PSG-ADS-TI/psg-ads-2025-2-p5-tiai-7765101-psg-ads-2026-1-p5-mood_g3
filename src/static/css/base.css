@@ -63,8 +63,11 @@ body {
 
 .nav-links {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 24px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .nav-link {
@@ -166,6 +169,8 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    color: inherit;
+    text-decoration: none;
 }
 
 .footer-logo-text {
