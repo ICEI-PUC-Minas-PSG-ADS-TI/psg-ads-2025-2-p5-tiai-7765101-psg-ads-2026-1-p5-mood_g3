@@ -48,6 +48,7 @@ def dashboard_view(request):
         "entries": entries,
         "date_from": date_from or "",
         "date_to": date_to or "",
+        "show_table": bool(date_from or date_to),
     })
 
 @login_required

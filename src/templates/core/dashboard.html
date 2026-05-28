@@ -85,7 +85,7 @@
 </form>
 
 {% if entries %}
-  <div class="table-responsive" id="tabelaRegistros" style="display: none;">
+  <div class="table-responsive" id="tabelaRegistros" style="display: {% if show_table %}block{% else %}none{% endif %};">
     <table class="table table-striped table-hover align-middle">
       <thead class="table-primary">
         <tr>
