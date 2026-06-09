@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-
+import dj_database_url
 from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -12,8 +12,10 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-dev-only-key')
 
 DEBUG = os.getenv('DJANGO_DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '*').split(',')
-
+ALLOWED_HOSTS = os.getenv(
+    'ALLOWED_HOSTS',
+    'localhost,127.0.0.1'
+).split(',')
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -57,14 +59,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'projeto.wsgi.application'
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('POSTGRES_DB', 'humor_db'),
-        'USER': os.getenv('POSTGRES_USER', 'humor_user'),
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'humor_pass'),
-        'HOST': os.getenv('POSTGRES_HOST', 'localhost'),
-        'PORT': os.getenv('POSTGRES_PORT', '5432'),
-    }
+    'default': dj_database_url.config(
+        default=f"postgres://{os.getenv('POSTGRES_USER', 'humor_user')}:{os.getenv('POSTGRES_PASSWORD', 'humor_pass')}@{os.getenv('POSTGRES_HOST', 'localhost')}:{os.getenv('POSTGRES_PORT', '5433')}/{os.getenv('POSTGRES_DB', 'humor_db')}"
+    )
 }
 
 AUTH_PASSWORD_VALIDATORS = [
