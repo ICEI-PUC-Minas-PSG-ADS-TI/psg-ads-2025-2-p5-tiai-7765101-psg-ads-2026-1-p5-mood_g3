@@ -1,28 +1,19 @@
 
 # 6. Conclusão
+O desenvolvimento do sistema web de registro e análise de humor possibilitou a criação de uma ferramenta voltada ao acompanhamento do estado emocional dos usuários, permitindo o registro diário de sentimentos, organização do histórico emocional e visualização de informações por meio de análises e indicadores. A solução proposta busca auxiliar estudantes e jovens adultos no processo de autoconhecimento, incentivando a reflexão sobre suas emoções e a identificação de possíveis padrões relacionados ao bem-estar mental.
+Os resultados obtidos demonstram que o sistema atende aos principais objetivos definidos inicialmente, oferecendo funcionalidades como cadastro de usuários, registro de humor, diário emocional, histórico de registros e dashboard de análise. Essas funcionalidades contribuem para transformar informações emocionais registradas pelo usuário em dados organizados, facilitando a percepção de mudanças de humor e comportamentos ao longo do tempo.
 
-> ⚠️ **Aviso aos Squads:**
-> Esta seção deve ser preenchida ao final do projeto (Sprint 4). É o momento de refletir sobre o software entregue, o impacto gerado e os aprendizados da equipe.<br>
 ---
 ## 6.1 Síntese dos Resultados
-O software construído resolveu o problema inicial? Como ele se conecta com a ODS (Objetivo de Desenvolvimento Sustentável) escolhida lá na Sprint 1? Faça um resumo dos principais impactos positivos gerados pela solução.<br><br>
-
-> **EXEMPLO:** *A plataforma reduziu o tempo de agendamento de 8 para 3 minutos, digitalizando um processo que antes era feito no papel. Com isso, o projeto atendeu à ODS 3 (Saúde e Bem-estar), facilitando o acesso da comunidade aos serviços da clínica.*
-
-✏️ **Preencha com a síntese do seu Squad:** (Digite seu texto aqui)
+O projeto apresenta uma relação direta com o Objetivo de Desenvolvimento Sustentável (ODS) 3 — Saúde e Bem-Estar, pois busca promover práticas relacionadas ao cuidado com a saúde mental e à melhoria da qualidade de vida. Embora o sistema não substitua acompanhamento profissional psicológico ou médico, ele funciona como uma ferramenta de apoio ao autocuidado, incentivando os usuários a desenvolverem maior consciência sobre seus sentimentos e hábitos emocionais.
 
 ---
 ## 6.2 Limitações e Trabalhos Futuros
-Nenhum software nasce perfeito. Quais foram as limitações técnicas ou de escopo enfrentadas pelo grupo? O que vocês sugerem como melhoria para uma futura "Versão 2.0" do sistema?<br><br>
-
-> **EXEMPLO:** *Como limitação técnica, o sistema atual não possui uma versão mobile otimizada (responsividade completa). Para trabalhos futuros, sugerimos a criação de um aplicativo nativo e a integração com um sistema de recomendação por IA.*
-
-✏️ **Preencha com as limitações e próximos passos do seu Squad:** (Digite seu texto aqui)
+Durante o desenvolvimento, algumas limitações foram identificadas. Entre elas, destaca-se a dependência da participação ativa do usuário no preenchimento dos registros, pois a qualidade das análises depende da frequência e da sinceridade das informações inseridas. Além disso, o sistema inicialmente apresenta análises baseadas apenas nos dados registrados pelo próprio usuário, não possuindo recursos avançados de inteligência artificial ou integração com outras fontes de informações relacionadas à saúde.
+Como trabalhos futuros, podem ser implementadas melhorias como a utilização de inteligência artificial para identificar padrões emocionais mais complexos, geração de recomendações personalizadas de bem-estar, integração com aplicativos de saúde e dispositivos inteligentes, além da criação de uma versão mobile para facilitar o acesso diário. Também podem ser adicionados recursos de acompanhamento por profissionais da área de saúde mental, respeitando questões de privacidade e segurança dos dados.
 
 ---
 ## 6.3 Lições Aprendidas
-Como foi a experiência de atuar como uma *Software House* utilizando Fatias Verticais? Quais foram os maiores desafios técnicos (ex: Banco de Dados, Integração de API, versionamento no Git) e como a equipe os superou?<br><br>
+Como lições aprendidas, o desenvolvimento do projeto permitiu compreender a importância da criação de soluções tecnológicas voltadas para necessidades humanas reais, destacando a relação entre tecnologia, saúde e qualidade de vida. Além disso, possibilitou o aprimoramento de conhecimentos relacionados ao desenvolvimento de sistemas web, organização de dados, experiência do usuário e cuidados necessários com informações sensíveis, como registros emocionais.
+Dessa forma, o projeto demonstra o potencial da tecnologia como ferramenta de apoio ao bem-estar emocional, contribuindo para a criação de soluções acessíveis que incentivem o autoconhecimento e práticas de cuidado com a saúde mental.
 
-✏️ **Preencha com os aprendizados do seu Squad:** (Digite seu texto aqui)
-
----
