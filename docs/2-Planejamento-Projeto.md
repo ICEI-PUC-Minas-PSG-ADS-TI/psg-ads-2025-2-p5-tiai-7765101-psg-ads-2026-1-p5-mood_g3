@@ -171,7 +171,7 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 |--------------------------------|----------------------|--------|--------|--------|--------|
 | Camila Machado Pires Maia      | Facilitador Ágil     | Correção de bugs | 22/05 | 05/06 | ❌ |
 | Diego Rodrigues da Cruz        | Gerente de Qualidade | Finalizar relatórios e dashboards | 01/06 | 15/06 | ❌ |
-| Francisco Henrique de Moura    | Arquiteto de Dados   | Preencher Relatório APC | 10/06 | 20/06 | ❌ |
+| Francisco Henrique de Moura    | Arquiteto de Dados   | Deploy da Aplicação: Disponibilizar o sistema em ambiente acessível (deploy), garantindo que esteja funcional para avaliação , preencher síntese dos resultados, conexão com a ODS, limitações, trabalhos futuros e lições aprendida - | 20/06 | ✔️  |
 | Fredson Marinho Almeida Borges | Tech Lead            | Testes finais e consolidar README | 15/06 | 25/06 | ❌ |
 
 ---
