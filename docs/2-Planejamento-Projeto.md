@@ -172,6 +172,6 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 | Camila Machado Pires Maia      | Facilitador Ágil     | Documentação Final Consolidada: Toda a documentação atualizada e coerente com o código final no GitHub e criação dos slides de apresentação | 22/05 | 05/06 | 📝 |
 | Diego Rodrigues da Cruz        | Gerente de Qualidade | Finalizar relatórios e dashboards | 01/06 | 15/06 | ❌ |
 | Francisco Henrique de Moura    | Arquiteto de Dados   | Deploy da Aplicação: Disponibilizar o sistema em ambiente acessível (deploy), garantindo que esteja funcional para avaliação , preencher síntese dos resultados, conexão com a ODS, limitações, trabalhos futuros e lições aprendida - | 20/06 | ✔️  |
-| Fredson Marinho Almeida Borges | Tech Lead            | Testes finais e consolidar README | 15/06 | 25/06 | ❌ |
+| Fredson Marinho Almeida Borges | Tech Lead            | Testes finais e consolidar README | 15/06 | 25/06 | ✔️ |
 
 ---
