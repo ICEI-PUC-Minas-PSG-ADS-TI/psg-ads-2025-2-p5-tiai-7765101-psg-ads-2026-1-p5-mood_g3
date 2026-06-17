@@ -14,7 +14,10 @@ Apresente as imagens reais das telas implementadas, associando-as à funcionalid
 **🟢 Sprint 1: Hello World / Tela Inicial**
 * **Funcionalidade:** Informar sobre o como o sistema funciona.
 * **Descrição:** Essa tela é responsável por descrever o que o sistema faz, informar quantos usuários utilizam o sistema e o motivo da criação do sistema.
-[Tela Home](docs/images/tela_home.png)
+<img src="images/tela_home" width="80%">
+<img src="images/tela_home02" width="80%">
+<img src="images/tela_home03" width="80%">
+
 
 **🟡 Sprint 2: MVP (Primeira Fatia Vertical)**
 * **Funcionalidade:** *(Ex: Cadastro de Cliente e Listagem)*
