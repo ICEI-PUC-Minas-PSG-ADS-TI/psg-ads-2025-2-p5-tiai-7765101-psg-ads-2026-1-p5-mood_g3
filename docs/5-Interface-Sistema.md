@@ -12,10 +12,9 @@ Esta seção deve ser atualizada a cada Sprint, servindo como um registro histó
 Apresente as imagens reais das telas implementadas, associando-as à funcionalidade (Fatia Vertical) entregue na Sprint correspondente. Descreva brevemente o que cada tela faz.<br><br>
 
 **🟢 Sprint 1: Hello World / Tela Inicial**
-* **Funcionalidade:** Ponto de entrada do sistema e navegação principal.
-* **Descrição:** Tela inicial conectada à API, provando que o fluxo base da aplicação está funcionando.
-* *(Insira a imagem real da tela aqui - ex: `![Tela Home](images/sprint1_home.png)`)* <br><br>
-> 💡 **Importante:** Uma mesma funcionalidade (fatia) pode render **várias telas** (ex: tela de listagem, formulário de cadastro e modal de sucesso). **Coloque prints de todas as etapas do fluxo.** <br><br>
+* **Funcionalidade:** Informar sobre o como o sistema funciona.
+* **Descrição:** Essa tela é responsável por descrever o que o sistema faz, informar quantos usuários utilizam o sistema e o motivo da criação do sistema.
+[Tela Home](docs/images/tela_home.png)
 
 **🟡 Sprint 2: MVP (Primeira Fatia Vertical)**
 * **Funcionalidade:** *(Ex: Cadastro de Cliente e Listagem)*
