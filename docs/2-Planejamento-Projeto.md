@@ -1,17 +1,11 @@
 # 2. Planejamento do Projeto
 
-Esta seção apresenta como o grupo organizará o trabalho ao longo do semestre.  
+Organização do trabalho ao longo do semestre.  
 O projeto adota uma metodologia ágil, simulando o ambiente de uma Software House.
 
 ---
 
-### 🚨 Regra de Ouro: 
-
-> ❗Não existe divisão entre “quem faz documento”, “quem faz Front-end” e “quem faz Back-end”.
-
-<br>Todos os integrantes são **Desenvolvedores Full-Stack** e devem implementar **Fatias Verticais (Vertical Slices)**.
-
-✔️ Cada membro deve entregar a funcionalidade completa:  
+✔️ Funcionalidade completa:  
 
 **Banco de Dados → API → Tela**
 
@@ -19,7 +13,7 @@ O projeto adota uma metodologia ágil, simulando o ambiente de uma Software Hous
 
 # 2.1 Sprints do Projeto
 
-O projeto será realizado em **4 Sprints**, com entregas contínuas de código e documentação.
+Projeto realizado em **4 Sprints**, com entregas contínuas de código e documentação.
 
 ---
 
