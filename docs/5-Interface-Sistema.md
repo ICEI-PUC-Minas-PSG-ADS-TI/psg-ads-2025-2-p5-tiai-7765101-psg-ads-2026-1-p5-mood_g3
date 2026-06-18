@@ -3,8 +3,6 @@
 
 ## 5.1. Galeria de Telas (Por Sprint)
 
-Apresente as imagens reais das telas implementadas, associando-as à funcionalidade (Fatia Vertical) entregue na Sprint correspondente. Descreva brevemente o que cada tela faz.<br><br>
-
 **🟢 Sprint 1: Tela Inicial**
 * **Funcionalidade:** Informar sobre o como o sistema funciona.
 * **Descrição:** Essa tela é responsável por descrever o que o sistema faz, informar quantos usuários utilizam o sistema e o motivo da criação do sistema.
