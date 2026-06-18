@@ -35,8 +35,6 @@ Projeto realizado em **4 Sprints**, com entregas contínuas de código e documen
 - 1ª funcionalidade completa funcionando
 - Dados sendo salvos no banco
 
-⚠️ Se não salvar no banco, não pontua.
-
 ---
 
 ### 🔵 Sprint 3 – Core e Regras de Negócio
@@ -58,8 +56,7 @@ Projeto realizado em **4 Sprints**, com entregas contínuas de código e documen
 
 # 👥 Papéis de Gestão
 
-Todos programam.  
-Os papéis abaixo são apenas para organização do time.
+Organização do time.
 
 - 👨‍💻 **Tech Lead (Git Master)**  
   Responsável pelo repositório e merges.
@@ -82,17 +79,13 @@ Os papéis abaixo são apenas para organização do time.
 - 🧪 Gerente de Qualidade: Diego Rodrigues da Cruz
 - 📋 Facilitador Ágil: Camila Machado Pires Maia
 
-> Caso os papéis mudem nas próximas Sprints, atualizar neste documento.
-
 ---
 
 # 2.2 Execução e Controle
 
-## 🗂️ Kanban (OBRIGATÓRIO)
+## 🗂️ Kanban 
 
-O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO preencher os quadros Kanban de cada Sprint** (apresentados abaixo).
-
-### Estrutura obrigatória do Board:
+### Estrutura do Board:
 
 - A Fazer
 - Desenvolver
@@ -110,8 +103,6 @@ O projeto pode utilizar a aba **Projects** do GitHub, porém é **OBRIGATÓRIO p
 - A avaliação individual considerará:
   - Histórico de commits
   - Movimentação no Kanban
-
-⚠️ Se não está no Git, não foi feito.
 
 ---
 
