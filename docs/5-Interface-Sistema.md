@@ -42,18 +42,15 @@ Apresente as imagens reais das telas implementadas, associando-as à funcionalid
 
 
 **🔵 Sprint 3: Core (Regras de Negócio)**
-* **Funcionalidade:** *(Ex: Dashboard de Análise ou Fluxo de Pagamento)*
-* **Descrição:** Interface que demonstra as regras de negócio mais complexas do sistema operando com dados reais do banco.
-* *(Insira a imagem real da tela aqui - ex: `![Tela Core](images/sprint3_core.png)`)* <br><br>
-> 💡 **Importante:** Uma mesma funcionalidade (fatia) pode render **várias telas** (ex: tela de listagem, formulário de cadastro e modal de sucesso). **Coloque prints de todas as etapas do fluxo.** <br><br>
+* **Funcionalidade:** Editar Dados Pessoais
+* **Descrição:** O usuário é direcionado para essa página quando clica em cima do e-mail, nessa página ele pode alterar o seu e-mail.
+<img src="images/tela_dadospessoais.png" width="80%">
 
-**🔴 Sprint 4: Entrega Final**
-* **Funcionalidade:** Polimento visual e telas secundárias.
-* **Descrição:** Telas finais de relatórios, perfis de usuário, tratamento de erros e refinamento de CSS/UX.
-* *(Insira a imagem real da tela aqui - ex: `![Tela Final](images/sprint4_final.png)`)* <br><br>
-> 💡 **Importante:** Uma mesma funcionalidade (fatia) pode render **várias telas** (ex: tela de listagem, formulário de cadastro e modal de sucesso). **Coloque prints de todas as etapas do fluxo.** <br><br>
 
-> 📸 **Dica:** Certifiquem-se de que as imagens tenham boa resolução e mostrem o sistema rodando no navegador. Salvem todas as imagens na pasta `images/` do repositório.
+* **Funcionalidade:** Dashboard Emocional
+* **Descrição:** Responsável pelos gráficos Evolução do Humor, Distribuição de Emoções, Registro por Horário e Média Semanal, assim o usuário tem fácil visualização de como pode está seu humor ultimamente.
+<img src="images/tela_dashboard.png" width="80%">
+
 
 
 
