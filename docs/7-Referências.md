@@ -7,7 +7,7 @@
     Disponível em: [<https://brasil.un.org/pt-br/sdgs/3>](https://www.ipea.gov.br/ods/ods3.html). 
     Acesso em: 13 mar. 2026.
 
-    ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). *Objetivo de Desenvolvimento Sustentável 3 Saúde e Bem-Estar*. 
+* ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). *Objetivo de Desenvolvimento Sustentável 3 Saúde e Bem-Estar*. 
     Disponível em: [[<https://brasil.un.org/pt-br/sdgs/3>](https://www.ipea.gov.br/ods/ods3.html](https://odsacademica.com.br/ods/3)). 
     Acesso em: 15 mar. 2026.
 
