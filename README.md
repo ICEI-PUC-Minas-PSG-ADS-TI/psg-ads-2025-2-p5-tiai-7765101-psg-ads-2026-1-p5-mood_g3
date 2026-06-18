@@ -15,7 +15,7 @@ ODS Alinhados:
 
 ## Integrantes
 
-* Camila Machado Pires Maia
+* Camila Machado Pires Maia - camsmpm@gmail.com
 * Diego Rodrigues da Cruz
 * Francisco Henrique de Moura
 * Fredson Marinho Almeida Borges Filho
