@@ -1,6 +1,6 @@
 # 7. Referências
 
-> - **Todas as referências bibliográficas e técnicas utilizadas ao longo do projeto estão listadas abaixo:**
+**Todas as referências bibliográficas e técnicas utilizadas ao longo do projeto estão listadas abaixo:**
 
 * **Referência da ODS (Obrigatório):**
     ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). *ODS 3 - Assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades*. 
