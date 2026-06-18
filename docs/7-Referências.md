@@ -8,7 +8,7 @@
     Acesso em: 13 mar. 2026.
 
 * ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). *Objetivo de Desenvolvimento Sustentável 3 Saúde e Bem-Estar*. 
-    Disponível em: [https://odsacademica.com.br/ods/3](https://odsacademica.com.br/ods/3)). 
+    Disponível em: [https://odsacademica.com.br/ods/3](https://odsacademica.com.br/ods/3). 
     Acesso em: 15 mar. 2026.
 
 * **Documentação Técnica (Frameworks e Banco de Dados):**
