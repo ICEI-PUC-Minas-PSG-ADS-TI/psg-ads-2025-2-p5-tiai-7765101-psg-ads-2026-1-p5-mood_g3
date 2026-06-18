@@ -1,12 +1,6 @@
 
 # 5. Interface do Sistema
 
-> ⚠️ **Aviso aos Squads:**
-> Diferente da Seção 4 (onde vocês colocaram os wireframes/Mockups), esta seção é o **Portfólio Visual** do software real. Aqui devem constar apenas as capturas de tela (screenshots) do **sistema já codificado e funcionando**.
-
-Esta seção deve ser atualizada a cada Sprint, servindo como um registro histórico da evolução da interface da aplicação web. <br><br>
-
-
 ## 5.1. Galeria de Telas (Por Sprint)
 
 Apresente as imagens reais das telas implementadas, associando-as à funcionalidade (Fatia Vertical) entregue na Sprint correspondente. Descreva brevemente o que cada tela faz.<br><br>
