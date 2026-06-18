@@ -4,7 +4,7 @@
 ## 5.1. Galeria de Telas (Por Sprint)
 
 **🟢 Sprint 1: Tela Inicial**
-* **Funcionalidade:** Informar sobre o como o sistema funciona.
+* **Funcionalidade:** Informar sobre como o sistema funciona.
 * **Descrição:** Essa tela é responsável por descrever o que o sistema faz, informar quantos usuários utilizam o sistema e o motivo da criação do sistema.
 <img src="images/tela_home.png" width="80%">
 <img src="images/tela_home02.png" width="80%">
@@ -28,7 +28,7 @@
 
 
 * **Funcionalidade:** Registro de Humor Diário 
-* **Descrição:** É responsável pelo registro de humor do cliente no dia, ele seleciona o estado emocional, a intensidade e as atividades que ele realizou durante o dia.
+* **Descrição:** É responsável pelo registro de humor do usuário no dia, ele seleciona o estado emocional, a intensidade e as atividades que ele realizou durante o dia.
 <img src="images/tela_novoregistro.png" width="80%">
 <img src="images/tela_novoregistro02.png" width="80%">
 
