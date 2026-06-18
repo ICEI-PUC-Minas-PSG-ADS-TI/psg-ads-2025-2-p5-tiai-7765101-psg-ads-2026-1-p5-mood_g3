@@ -18,7 +18,7 @@ ODS Alinhados:
 * Camila Machado Pires Maia - camsmpm@gmail.com
 * Diego Rodrigues da Cruz - diegorod092@gmail.com
 * Francisco Henrique de Moura
-* Fredson Marinho Almeida Borges Filho
+* Fredson Marinho Almeida Borges Filho - fredborgesfilho@gmail.com
 
 ## Orientador
 
