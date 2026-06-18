@@ -197,23 +197,6 @@ O arquivo .sql ou .js deve ser salvo na pasta: src/bd
 > - Restrições da plataforma
 > - Uso adequado de palavras reservadas <br>
 
-
-Exemplo:
-
-<img src="https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/11/09/BDB-1321-image005.png" width="85%">
-
-FONTE: [https://aws.amazon.com/pt/compare/the-difference-between-logical-and-physical-data-model/](https://aws.amazon.com/pt/compare/the-difference-between-logical-and-physical-data-model/)
-
-<br>O grupo deverá gerar um diagrama físico do banco de dados (estrutura real das tabelas), evidenciando PKs, FKs e relacionamentos, conforme implementado no código.
-
-Este modelo deve exibir:
-- Tabelas ou coleções existentes
-- Atributos com seus respectivos tipos de dados
-- Chaves Primárias (PK)
-- Chaves Estrangeiras (FK)
-- Relacionamentos entre tabelas
-- Restrições implementadas (quando aplicável)
-
 ---
 
 ### Requisitos Obrigatórios
@@ -491,7 +474,7 @@ CREATE INDEX "idx_core_moodentry_user_created" ON "core_moodentry"("user_id", "c
 
 ---
 
-Ferramentas Sugeridas para Diagramas
+Ferramentas Sugeridas para Diagramas:
 - MySQL Workbench (engenharia reversa automática)
 - DbDesigner
 - Lucidchart
