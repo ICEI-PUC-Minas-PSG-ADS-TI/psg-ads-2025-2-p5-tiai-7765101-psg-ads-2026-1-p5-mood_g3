@@ -155,7 +155,7 @@ Organização do time.
 | Responsável                    | Papel                | Tarefa | Início | Prazo | Status |
 |--------------------------------|----------------------|--------|--------|--------|--------|
 | Camila Machado Pires Maia      | Facilitador Ágil     | Documentação Final Consolidada: Toda a documentação atualizada e coerente com o código final no GitHub e criação dos slides de apresentação | 14/05 | 25/06 | ✔️ |
-| Diego Rodrigues da Cruz        | Gerente de Qualidade | Documentação do Interface-Sistema e Referências. | 14/05 | 25/06 | ✔️ |
+| Diego Rodrigues da Cruz        | Gerente de Qualidade | Documentação do Interface-Sistema e Referências | 14/05 | 25/06 | ✔️ |
 | Francisco Henrique de Moura    | Arquiteto de Dados   | Deploy da Aplicação: Disponibilizar o sistema em ambiente acessível (deploy), garantindo que esteja funcional para avaliação , preencher síntese dos resultados, conexão com a ODS, limitações, trabalhos futuros e lições aprendida | 14/05 | 25/06 | ✔️  |
 | Fredson Marinho Almeida Borges | Tech Lead            | Testes finais e consolidar README | 14/05 | 25/06 | ✔️ |
 
